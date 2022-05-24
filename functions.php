@@ -33,6 +33,10 @@ function load_css_front_page(){
 	array(),false,'all');
 	wp_enqueue_style('stylesheet_8');
 
+	wp_register_style('stylesheet_9',get_template_directory_uri() . 
+		'/assets/css/header-style.css',
+	array(),false,'all');
+	wp_enqueue_style('stylesheet_9');
 
 	wp_register_style('stylesheet_20', get_template_directory_uri() .
 	 '/assets/css/test-giaodien.css',

@@ -823,12 +823,17 @@ header.global {
 header.global nav.global {
     position: relative;
     padding: 10px 0px 30px 0px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     z-index: 100;
     transition: transform 0.5s cubic-bezier(0.28, 0, 0.18, 1);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: translate3d(0, 0, 0)
+}
+
+nav.global{
+    display: flex;
+    justify-content: space-between; 
 }
 
 header.global nav.global:before,header.global nav.global:after {
@@ -842,7 +847,7 @@ header.global nav.global:after {
 
 header.global nav.global ul.main {
     position: relative;
-    margin-top: 10px
+    margin-top: 10px    
 }
 
 header.global nav.global ul.main li {
@@ -855,7 +860,7 @@ header.global nav.global ul.main li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 0.075rem;
     color: black;
     display: inline-block;
@@ -890,17 +895,21 @@ header.global nav.global ul.main li.last {
 }
 
 header.global nav.global ul.main.left {
-    float: left;
+    /* float: left; */
+    height: 60px;
     margin-left: 10px;
+    left: 10rem;
 }
 
 header.global nav.global ul.main.left li {
-    margin-right: 24px
+    margin-right: 24px;
+    height: 100%;
+    padding: 20px 10px 10px 10px;
 }
 
 header.global nav.global ul.main.right {
     float: right;
-    margin-left: 0
+    margin-left: 0;
 }
 
 header.global nav.global #search {
@@ -974,8 +983,10 @@ header.global nav.global #cart .target:hover {
 }
 
 header.global .logo {
+    top: 15px;
+    /* left: 150px; */
     position: absolute;
-    left: 50%;
+    /* left: 50%; */
     z-index: 100;
     bottom: 60px;
     transform: translateX(-50%);
@@ -3818,17 +3829,17 @@ form input[type=submit],form input[type=button],form button,.rc_layout__content 
 
 @media (max-width: 1024px) {
     #hero {
-        margin-top:60px
+        margin-top:100px
     }
 }
 
 .alert-shown #hero {
-    margin-top: 60px
+    margin-top: 100px
 }
 
 @media (max-width: 1024px) {
     .alert-shown #hero {
-        margin-top:60px
+        margin-top:80px
     }
 }
 
@@ -10799,6 +10810,22 @@ main.giftcard img {
     max-width: 80%;
     height: auto
 }
+
+/* #logo-slogan-container{
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+} */
+
+#my-slogan{
+    /* position: absolute; */
+    /* margin-top: 60px; */
+    /* display: block; */
+    color: black;
+    text-decoration: none;
+}
+
+
 @media(min-width: 1024px){
 #header-logo{
     height: 10em;
@@ -10806,6 +10833,13 @@ main.giftcard img {
     }
     a.logo{
         top: -20px;
+    }
+    #my-slogan{
+        margin-top: -110px;
+        margin-left: 200px;
+    }
+    header.global nav.global {
+        /* height: 60px; */
     }
 }
 @media (max-width: 1023px) {
@@ -10815,6 +10849,14 @@ main.giftcard img {
     a.logo{
         top: -20px;
     }
+
+    #my-slogan{
+        position: absolute;
+        width: 200%;
+    left: -50%;
+    text-align: center;
+    
+}
 } 
 @media (max-width: 767px) {
     .tbc-banner {
@@ -10830,3 +10872,6 @@ main.giftcard img {
     }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+

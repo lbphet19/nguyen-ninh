@@ -59,6 +59,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<!-- <link rel="stylesheet" href = "./test-giaodien.css"> -->
 		<script src=" <?php echo get_template_directory_uri() . '/assets/js/libs.min.js' ?>"></script>
 		<script src=" <?php echo get_template_directory_uri() . '/assets/js/base.min.js' ?>"></script>
+		<script src=" <?php echo get_template_directory_uri() . '/assets/js/front-page-main-script.js' ?>"></script>
 		<script type="text/javascript">
 			$root = 'https://ceremonycoffee.com';
 			$templateDirectory = 'https://ceremonycoffee.com/wp-content/themes/ceremony';
@@ -130,6 +131,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				
 							<div class="veil full fixed"></div>
 			<div id="wrapper" class="alert-shown">
+
+
 <section id="hero" class="slick    ">
 			<article class="left ">
 								
