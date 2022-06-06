@@ -4,7 +4,7 @@
 
 .brown-fill {
     background-color: #95664a
-}
+}   
 
 .green-fill {
     background-color: #427d2e
@@ -822,7 +822,7 @@ header.global {
 
 header.global nav.global {
     position: relative;
-    padding: 10px 0px 30px 0px;
+    padding: 10px 60px 60px 60px;
     /* padding-bottom: 60px; */
     z-index: 100;
     transition: transform 0.5s cubic-bezier(0.28, 0, 0.18, 1);
@@ -833,7 +833,7 @@ header.global nav.global {
 
 nav.global{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-evenly; 
 }
 
 header.global nav.global:before,header.global nav.global:after {
@@ -896,9 +896,10 @@ header.global nav.global ul.main li.last {
 
 header.global nav.global ul.main.left {
     /* float: left; */
+  /*   display: flex;
+    justify-content: end; */
     height: 60px;
-    margin-left: 10px;
-    left: 10rem;
+    width: 50%;
 }
 
 header.global nav.global ul.main.left li {
@@ -906,6 +907,10 @@ header.global nav.global ul.main.left li {
     height: 100%;
     padding: 20px 10px 10px 10px;
 }
+header.global nav.global ul.main.left li:last-child {
+    margin-right: 0;
+}
+
 
 header.global nav.global ul.main.right {
     float: right;
@@ -1605,6 +1610,10 @@ header.global #mobile-menu ul li form .icon:before {
     text-align: left
 }
 
+#mobile-menu .scroll-content{
+    margin-top: 50px;
+}
+
 @media (max-width: 1024px) {
     header.global #mobile-toggle,header.global #mobile-menu {
         display:block
@@ -2037,7 +2046,7 @@ footer.global #newsletter.response.error span.response.error {
 }
 
 footer.global nav.global {
-    width: 61%;
+    width: 70%;
     float: left;
     padding-bottom: 120px
 }
@@ -2081,8 +2090,14 @@ footer.global nav.global ul.main li ul li a:hover {
 }
 
 @media (max-width: 1024px) {
-    footer.global nav.global {
-        display:none
+    footer.global{
+        padding: 0;
+    }
+    footer.global nav.global{
+        width: 100%;
+    }
+    footer.global nav.global iframe{
+        height: 350px;
     }
 }
 
@@ -2129,7 +2144,7 @@ footer.global aside ul li a.icon {
     }
 
     footer.global aside ul li#gift-card-btn {
-        display: none
+        
     }
 
     footer.global aside ul li a.icon {
@@ -2709,7 +2724,7 @@ form .form__group,.rc_layout__content .form__group,.rc_modal__content .form__gro
 
 form input[type=text],form input[type=tel],form input[type=password],form input[type=email],form textarea,.rc_layout__content input[type=text],.rc_layout__content input[type=tel],.rc_layout__content input[type=password],.rc_layout__content input[type=email],.rc_layout__content textarea,.rc_modal__content input[type=text],.rc_modal__content input[type=tel],.rc_modal__content input[type=password],.rc_modal__content input[type=email],.rc_modal__content textarea {
     font-size: .9rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: none;
     width: 100%;
     border-bottom: 1px solid black;
@@ -2769,7 +2784,7 @@ form input[type=submit],form input[type=button],form button,.rc_layout__content 
     cursor: pointer;
     text-align: center;
     float: none;
-    margin: 20px 0 0;
+    /* margin: 20px 0 0; */
     position: relative;
     display: block
 }
@@ -3839,7 +3854,7 @@ form input[type=submit],form input[type=button],form button,.rc_layout__content 
 
 @media (max-width: 1024px) {
     .alert-shown #hero {
-        margin-top:80px
+        margin-top:100px;
     }
 }
 
@@ -10811,11 +10826,10 @@ main.giftcard img {
     height: auto
 }
 
-/* #logo-slogan-container{
-    width: 10em;
-    display: flex;
-    flex-direction: row;
-} */
+#logo-slogan-container{
+    width: 50%;
+
+}
 
 #my-slogan{
     /* position: absolute; */
@@ -10827,15 +10841,20 @@ main.giftcard img {
 
 
 @media(min-width: 1024px){
+    header.global nav.global ul.main.left {
+    /* float: left; */
+    display: flex;
+    justify-content: end;
+}
 #header-logo{
-    height: 10em;
+    height: 8em;
     top: 0;
     }
     a.logo{
         top: -20px;
     }
     #my-slogan{
-        margin-top: -110px;
+        margin-top: -90px;
         margin-left: 200px;
     }
     header.global nav.global {
@@ -10843,8 +10862,20 @@ main.giftcard img {
     }
 }
 @media (max-width: 1023px) {
+    #logo-slogan-container{
+    width: 100%;
+}
+    ul#logo-slogan-container li img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
     #header-logo{
         height: 5em;
+        margin-top: .25em;
+    }
+    .sticky #my-slogan{
+        display: none;
     }
     a.logo{
         top: -20px;

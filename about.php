@@ -27,11 +27,6 @@
 
 
 <link rel='dns-prefetch' href='//s.w.org' />
-<script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ceremonycoffee.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.2"}};
-/*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
 	<style type="text/css">
 		img.wp-smiley,
 		img.emoji {
@@ -56,7 +51,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13
 	<link rel="alternate" type="application/json+oembed" href="https://ceremonycoffee.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fceremonycoffee.com%2Fwholesale%2F" />
 	<link rel="alternate" type="text/xml+oembed" href="https://ceremonycoffee.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fceremonycoffee.com%2Fwholesale%2F&#038;format=xml" /> -->
 	<!-- <link rel="stylesheet" href="./assets/css/test-giaodien.css" /> -->
-	<script src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/js/libs.min.js"></script>
+	<script src="<?php echo get_template_directory_uri() . '/assets/js/libs.min.js';?>"></script> 
+	<script src = "<?php echo get_template_directory_uri() . '/assets/
+	js/front-page-main-script.js'; ?>"></script>
 	<script type="text/javascript">
 		$root = 'https://ceremonycoffee.com';
 		$templateDirectory = 'https://ceremonycoffee.com/wp-content/themes/ceremony';
@@ -76,7 +73,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13
 </head>
 <body class="page-template-default page page-id-10" class="full-height">
 	
-	<main id="main-scrollbar" data-scrollbar class="full-height">
+	
 		<?php get_template_part( 'my-header' ); ?>
 		
 			
@@ -154,96 +151,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13
 										<h2>Ashley Whelan</h2>
 										<span class="label">Green Buyer</span>
 									</hgroup>
-								</section><section class="form">
-									<p class="heading">Sign Me Up</p>
-									<p class="note"> Have questions or ready to get started? Fill out the form below and we'll be in touch.</p>
-									
-									<div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/wholesale/'>
-										<div class='gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id='field_1_2'  class='gfield full-width gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><h2>Your Info</h2></li><li id='field_1_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_1' >First Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='medium' maxlength='150'  tabindex='1' placeholder='First Name *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_3'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_3' >Last Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_3' id='input_1_3' type='text' value='' class='medium' maxlength='150'  tabindex='2' placeholder='Last Name *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_4'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_4' >Email<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
-											<input name='input_4' id='input_1_4' type='text' value='' class='medium' tabindex='3'  placeholder='Email *' aria-required="true" aria-invalid="false" />
-										</div></li><li id='field_1_5'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_5' >Phone Number</label><div class='ginput_container ginput_container_phone'><input name='input_5' id='input_1_5' type='text' value='' class='medium' tabindex='4' placeholder='Phone Number *'  aria-invalid="false"  /></div></li><li id='field_1_6'  class='gfield full-width gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><h2>Company</h2></li><li id='field_1_7'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_7' >Company Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='text' value='' class='medium' maxlength='150'  tabindex='5' placeholder='Company Name *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_8'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_8' >Website<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_8' id='input_1_8' type='text' value='' class='medium' maxlength='150'  tabindex='6' placeholder='Website *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_10'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_10' >Pounds of Coffee Per Week<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_1_10' type='text' value='' class='medium' maxlength='150'  tabindex='7' placeholder='Pounds of Coffee Per Week *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_9'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_9' >Estimated Date of First Order<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_9' id='input_1_9' type='text' value='' class='medium' maxlength='150'  tabindex='8' placeholder='Estimated Date of First Order *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_11'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_11' >Address<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_11' id='input_1_11' type='text' value='' class='medium' maxlength='150'  tabindex='9' placeholder='Address *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_12'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_12' >Country<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_12' id='input_1_12' type='text' value='' class='medium' maxlength='150'  tabindex='10' placeholder='Country *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_13'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_13' >City<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_13' id='input_1_13' type='text' value='' class='medium' maxlength='150'  tabindex='11' placeholder='City *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_14'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_14' >State<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_14' id='input_1_14' type='text' value='' class='medium' maxlength='150'  tabindex='12' placeholder='State *' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_15'  class='gfield full-width gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><label>Tell us more about your approach to coffee and your business</label></li><li id='field_1_16'  class='gfield full-width field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_16' >Message</label><div class='ginput_container ginput_container_textarea'><textarea name='input_16' id='input_1_16' class='textarea medium' tabindex='13'     aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id='field_1_17'  class='gfield full-width centered field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_17' >CAPTCHA</label><div id='input_1_17' class='ginput_container ginput_recaptcha' data-sitekey='6LeSVVUUAAAAAITk_KOdtllsbrACik7_LT0rMFqj'  data-theme='light' data-tabindex='14'  data-badge=''></div></li><li id='field_1_18'  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_18' >Phone</label><div class='ginput_container'><input name='input_18' id='input_1_18' type='text' value='' /></div><div class='gfield_description' id='gfield_description_1_18'>This field is for validation purposes and should be left unchanged.</div></li>
-									</ul></div>
-									<div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Send' tabindex='15' onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} window["gf_submitting_1"]=true;  jQuery("#gform_1").trigger("submit",[true]); }' /> 
-										<input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
-										<input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
-										
-										<input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-										<input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImY3MGU3NzlkZWFjNzZkODBmN2ZmMWEwMWQ4MjljNjEyIl0=' />
-										<input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
-										<input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
-										<input type='hidden' name='gform_field_values' value='' />
-										
-									</div>
-								</form>
-								</div><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(!jQuery('#input_1_1+.ginput_counter').length){jQuery('#input_1_1').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_1').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_3+.ginput_counter').length){jQuery('#input_1_3').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_3').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_7+.ginput_counter').length){jQuery('#input_1_7').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_7').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_8+.ginput_counter').length){jQuery('#input_1_8').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_8').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_10+.ginput_counter').length){jQuery('#input_1_10').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_10').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_9+.ginput_counter').length){jQuery('#input_1_9').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_9').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_11+.ginput_counter').length){jQuery('#input_1_11').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_11').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_12+.ginput_counter').length){jQuery('#input_1_12').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_12').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_13+.ginput_counter').length){jQuery('#input_1_13').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_13').next('.ginput_counter').attr('aria-live','polite');}if(!jQuery('#input_1_14+.ginput_counter').length){jQuery('#input_1_14').textareaCount(    {'maxCharacterSize': 150,    'originalStyle': 'ginput_counter',	 'truncate': true,	 'errorStyle' : '',    'displayFormat' : '#input of #max max characters'    });jQuery('input_1_14').next('.ginput_counter').attr('aria-live','polite');}if(typeof Placeholders != 'undefined'){
-									Placeholders.enable();
-								}jQuery('#input_1_5').mask('(999) 999-9999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script></section>			<footer class="global">
-									<div id="newsletter" class="default">
-										<div id="newsletter-cover">
-											<p><span>Sign up for our newsletter</span> to receive special offers, event invitations, and more.</p>
-											<span id="newsletter-join-btn" class="cta white">Join Now</span>
-										</div>
-										<div id="newsletter-form">
-											<form action="https://ceremonycoffee.us18.list-manage.com/subscribe/post-json?u=6b2477ebf4eab9ba9f2994aeb&id=0c78d3a1c8" method="GET" novalidate>
-												<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address">
-												<input type="submit" value="Subscribe" class="cta" name="subscribe" disabled id="mc-embedded-subscribe">
-											</form>			
-										</div>
-										<div id="newsletter-response">
-											<span class="response success">Thanks. Now you're on the list.</span>
-											<span class="response error">You may already be on the list. If not, please try again.</span>						
-										</div>
-									</div>
-									<nav class="global">
-										<ul class="main">
-											<li id="menu-item-366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-366"><a href="https://shop.ceremonycoffee.com/">Shop</a>
-												<ul class="sub-menu">
-													<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="https://shop.ceremonycoffee.com/collections/coffee">Coffee</a></li>
-													<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="https://shop.ceremonycoffee.com/collections/gear">Gear</a></li>
-													<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="https://shop.ceremonycoffee.com/collections/subscription">Subscriptions</a></li>
-													<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-574"><a href="https://ceremonycoffee.com/color/">Taste by Color</a></li>
-												</ul>
-											</li>
-											<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-66"><a href="https://ceremonycoffee.com/wholesale/" aria-current="page">Wholesale</a>
-												<ul class="sub-menu">
-													<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-322"><a href="https://ceremonycoffee.com/wholesale/" aria-current="page">Become a Wholesale Partner</a></li>
-													<li id="menu-item-892" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-892"><a href="https://ceremonycoffee.com/cold-brew/">Cold Brew</a></li>
-												</ul>
-											</li>
-											<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-69"><a href="https://ceremonycoffee.com/about/">About</a>
-												<ul class="sub-menu">
-													<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="https://ceremonycoffee.com/about/">The Company</a></li>
-													<li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="https://ceremonycoffee.com/community/">Community</a></li>
-													<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="https://ceremonycoffee.com/contact-us/">Contact Us</a></li>
-													<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a href="https://ceremonycoffee.com/jobs/">Jobs</a></li>
-													<li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-277"><a href="https://ceremonycoffee.com/faq/">FAQ</a></li>
-													<li id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="https://ceremonycoffee.com/privacy-policy/">Privacy Policy</a></li>
-												</ul>
-											</li>
-											<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72"><a href="https://ceremonycoffee.com/locations/">Locations</a>
-												<ul class="sub-menu">
-													<li id="menu-item-1105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1105"><a href="https://ceremonycoffee.com/location/whitehall-mill/">Whitehall Mill</a></li>
-													<li id="menu-item-994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-994"><a href="https://ceremonycoffee.com/location/coming-soon-bethesda/">Bethesda</a></li>
-													<li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="https://ceremonycoffee.com/location/cross-street-market/">Cross St Market</a></li>
-													<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-268"><a href="https://ceremonycoffee.com/location/harbor-point/">Harbor Point</a></li>
-													<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-267"><a href="https://ceremonycoffee.com/location/mt-vernon/">Mt. Vernon</a></li>
-													<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-266"><a href="https://ceremonycoffee.com/location/riva/">Riva</a></li>
-													<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-265"><a href="https://ceremonycoffee.com/location/the-roastery/">The Roastery</a></li>
-												</ul>
-											</li>
-											
-										</ul>		
-									</nav>		
-									<aside>
-										<ul>
-											<li id="gift-card-btn"><span>Gift Cards</span><br /><a href="https://shop.ceremonycoffee.com/products/gift-card">Give a Gift Today</a></li>
-											<li><span>Social Media</span> <br />Follow Ceremony</li>
-											<li><a href="https://twitter.com/ceremonycoffee" class="icon icon-twitter"></a><a href="https://www.facebook.com/CeremonyCoffee/" class="icon icon-facebook"></a><a href="https://www.instagram.com/ceremonycoffee/" class="icon icon-instagram"></a></li>
-										</ul>
-									</aside>
-									<a href="https://ceremonycoffee.com" class="logo"><img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/logo-black.svg" /><span>Coffee, Inc. &mdash; &copy;2022</a>			
-										<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/tagline.svg" id="tagline" />		
-									</footer>			</div> <!--/wrapper-->
+								</section>			
+								<?php get_template_part('my-footer');?>
+											</div> <!--/wrapper-->
 								</main>
 								<script type='text/javascript' src='https://ceremonycoffee.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
 								<script type='text/javascript' src='https://ceremonycoffee.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>

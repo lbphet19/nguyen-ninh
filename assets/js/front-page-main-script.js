@@ -20,5 +20,16 @@ $(document).ready(function($) {
   });
   
   
+  $('#mobileBtnOpenForm').on('click', function(event) {
+    $("body").hasClass("show-mobile-menu") ?
+     $("body").removeClass("show-mobile-menu"):
+    $("body").addClass("show-mobile-menu")
+  });
+$('#mobileBtnOpenForm').on('click', function(event) {
+    event.preventDefault();
+
+    $('.form-popup-bg').addClass('is-visible');
+  });
   
+
   });

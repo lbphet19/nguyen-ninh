@@ -1,4 +1,4 @@
-<?php /* Template Name: PageWithoutSidebar */ ?>
+<!-- <?php /* Template Name: PageWithoutSidebar */ ?> -->
 
 <?php get_header(); ?>
 
@@ -12,27 +12,14 @@
 	<!-- This site is optimized with the Yoast SEO plugin v16.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
 	<meta name="description" content="Ceremony Coffee Roasters offer great wholesale programs for your coffee shop, cafe or restaurant. Talk with our specialty wholesale coffee team today." />
 	<link rel="canonical" href="https://ceremonycoffee.com/wholesale/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Ceremony Coffee Roasters Wholesale: Specialty Wholesale Coffee" />
-	<meta property="og:description" content="Ceremony Coffee Roasters offer great wholesale programs for your coffee shop, cafe or restaurant. Talk with our specialty wholesale coffee team today." />
-	<meta property="og:url" content="https://ceremonycoffee.com/wholesale/" />
-	<meta property="og:site_name" content="Ceremony Coffee Roasters: Order Coffee, Find Cafés, Shop Gear, Learn" />
-	<meta property="article:modified_time" content="2019-08-28T14:18:07+00:00" />
-	<meta property="og:image" content="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-baltimore-cafe-hero2.jpg" />
-	<meta property="og:image:width" content="1600" />
-	<meta property="og:image:height" content="1600" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ceremonycoffee.com/#website","url":"https://ceremonycoffee.com/","name":"Ceremony Coffee Roasters: Order Coffee, Find Caf\u00e9s, Shop Gear, Learn","description":"Welcome to Ceremony. Shop exciting new single origins and blends, find a cafe near you, and learn more about brewing speciality coffee.","potentialAction":[{"@type":"SearchAction","target":"https://ceremonycoffee.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://ceremonycoffee.com/wholesale/#webpage","url":"https://ceremonycoffee.com/wholesale/","name":"Ceremony Coffee Roasters Wholesale: Specialty Wholesale Coffee","isPartOf":{"@id":"https://ceremonycoffee.com/#website"},"datePublished":"2017-04-05T21:19:44+00:00","dateModified":"2019-08-28T14:18:07+00:00","description":"Ceremony Coffee Roasters offer great wholesale programs for your coffee shop, cafe or restaurant. Talk with our specialty wholesale coffee team today.","breadcrumb":{"@id":"https://ceremonycoffee.com/wholesale/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://ceremonycoffee.com/wholesale/"]}]},{"@type":"BreadcrumbList","@id":"https://ceremonycoffee.com/wholesale/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://ceremonycoffee.com/","url":"https://ceremonycoffee.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://ceremonycoffee.com/wholesale/","url":"https://ceremonycoffee.com/wholesale/","name":"Wholesale"}}]}]}</script>
-	<!-- / Yoast SEO plugin. -->
+	<link rel="stylesheet" type="text/css" href="<?php echo (get_template_directory_uri(). '
+			/assets/css/my-nguyen-ninh-posts.css'); ?>">
+	
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
 <link rel='dns-prefetch' href='//s.w.org' />
-<script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ceremonycoffee.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.2"}};
-/*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
+
 	<style type="text/css">
 		img.wp-smiley,
 		img.emoji {
@@ -56,7 +43,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13
 	<link rel='shortlink' href='https://ceremonycoffee.com/?p=10' />
 	<link rel="alternate" type="application/json+oembed" href="https://ceremonycoffee.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fceremonycoffee.com%2Fwholesale%2F" />
 	<link rel="alternate" type="text/xml+oembed" href="https://ceremonycoffee.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fceremonycoffee.com%2Fwholesale%2F&#038;format=xml" />
-	<link rel="stylesheet" href="./assets/css/test-giaodien.css" />
 	<script src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/js/libs.min.js"></script>
 	<script type="text/javascript">
 		$root = 'https://ceremonycoffee.com';
@@ -76,47 +62,143 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13
 	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/6b2477ebf4eab9ba9f2994aeb/df337905d15dda187b930850d.js");</script>
 </head>
 <body class="page-template-default page page-id-10" class="full-height">
-	<!-- <div id="mobile-loader">
-		<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/logo.svg" />
-	</div>
- -->		<main id="main-scrollbar" data-scrollbar class="full-height">
+	
 		<?php get_template_part( 'my-header' ); ?>
 		
 			
 			
 			<div class="veil full fixed"></div>
 			<div id="wrapper" class="alert-shown">
-
-				</div>
-									
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>    
+    <section class="blog-posts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="all-blog-posts">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="blog-post">
+                    <div class="blog-thumb">
+                        <?php
+                    $featured_image = wp_get_attachment_image_src(get_post_thumbnail_id( get_the_ID() ), 'full' ); ?>
+          
+                      <img src="<?php echo $featured_image[0]; ?>" alt="https://templatemo.com/templates/templatemo_551_stand_blog/assets/images/blog-post-01.jpg">
+                      </div>
+                    <div class="down-content">
+                      <span>Lifestyle</span>
+                      <a href="post-details.html"><h4><?php the_title();?>
+                    </h4></a>
+                      <ul class="post-info">
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="#">May 31, 2020</a></li>
+                        <!-- <li><a href="#">12 Comments</a></li> -->
+                      </ul>
+                      <?php the_content(); ?>
+                      <div class="post-options">
+                        <div class="row">
+                          <div class="col-6">
+                            <ul class="post-tags">
+                              <li><i class="fa fa-tags"></i></li>
+                              <li><a href="#">Beauty</a>,</li>
+                              <li><a href="#">Nature</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-6">
+                            <ul class="post-share">
+                              <li><i class="fa fa-share-alt"></i></li>
+                              <li><a href="#">Facebook</a>,</li>
+                              <li><a href="#"> Twitter</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="sidebar-item search">
+                    <form id="search_form" name="gs" method="GET" action="#">
+                      <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item recent-posts">
+                    <div class="sidebar-heading">
+                      <h2>Recent Posts</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="post-details.html">
+                          <h5>Vestibulum id turpis porttitor sapien facilisis scelerisque</h5>
+                          <span>May 31, 2020</span>
+                        </a></li>
+                        <li><a href="post-details.html">
+                          <h5>Suspendisse et metus nec libero ultrices varius eget in risus</h5>
+                          <span>May 28, 2020</span>
+                        </a></li>
+                        <li><a href="post-details.html">
+                          <h5>Swag hella echo park leggings, shaman cornhole ethical coloring</h5>
+                          <span>May 14, 2020</span>
+                        </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item categories">
+                    <div class="sidebar-heading">
+                      <h2>Categories</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="#">- Nature Lifestyle</a></li>
+                        <li><a href="#">- Awesome Layouts</a></li>
+                        <li><a href="#">- Creative Ideas</a></li>
+                        <li><a href="#">- Responsive Templates</a></li>
+                        <li><a href="#">- HTML5 / CSS3 Templates</a></li>
+                        <li><a href="#">- Creative &amp; Unique</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="sidebar-item tags">
+                    <div class="sidebar-heading">
+                      <h2>Tag Clouds</h2>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Creative</a></li>
+                        <li><a href="#">HTML5</a></li>
+                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="#">Motivation</a></li>
+                        <li><a href="#">PSD</a></li>
+                        <li><a href="#">Responsive</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <?php endwhile; ?>
+  <?php endif; ?>
+<?php get_template_part('my-footer');?>	
+</div>
+								
 								</main>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.24' id='gform_json-js'></script>
-								<script type='text/javascript' id='gform_gravityforms-js-extra'>
-									/* <![CDATA[ */
-									var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/ceremonycoffee.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/ceremonycoffee.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
-									/* ]]> */
-								</script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.24' id='gform_gravityforms-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.min.js?ver=2.4.24' id='gform_textarea_counter-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.4.24' id='gform_masked_input-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.24' id='gform_placeholder-js'></script>
-								<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=en&#038;render=explicit&#038;ver=5.9.2' id='gform_recaptcha-js'></script>
-								<script type="text/javascript">
-									( function( $ ) {
-										$( document ).bind( 'gform_post_render', function() {
-											var gfRecaptchaPoller = setInterval( function() {
-												if( ! window.grecaptcha || ! window.grecaptcha.render ) {
-													return;
-												}
-												renderRecaptcha();
-												clearInterval( gfRecaptchaPoller );
-											}, 100 );
-										} );
-									} )( jQuery );
-								</script>
-
 								
 								<script src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/js/base.min.js"></script>	
 								<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/tagline.svg" id="site-loader" />		

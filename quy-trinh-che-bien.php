@@ -72,7 +72,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/6b2477ebf4eab9ba9f2994aeb/df337905d15dda187b930850d.js");</script>
 			</head>
 	<body class="page-template-default page page-id-888" class="full-height">
-		<main id="main-scrollbar" data-scrollbar class="full-height">
+		
 			<?php get_template_part( 'my-header' ); ?>
 			
 			<div class="veil full fixed"></div>
@@ -117,73 +117,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			<h2>Find us in these retailers:</h2>
 			<p><a href="https://ceremonycoffee.com/locations/">Ceremony Cafes</a>, <a href="https://www.wholefoodsmarket.com/" target="_blank" rel="noopener">Whole Foods Market</a>, <a href="https://momsorganicmarket.com/" target="_blank" rel="noopener">MOM&#8217;s Organic Market</a>, <a href="https://dawsonsmarket.com/">Dawson&#8217;s Market,</a> <a href="http://greenvalleymarketplace.com/" target="_blank" rel="noopener">Green Valley Market,</a></p>
 		</article>
-	</section>			<footer class="global">
-	<div id="newsletter" class="default">
-		<div id="newsletter-cover">
-			<p><span>Sign up for our newsletter</span> to receive special offers, event invitations, and more.</p>
-			<span id="newsletter-join-btn" class="cta white">Join Now</span>
-		</div>
-		<div id="newsletter-form">
-			<form action="https://ceremonycoffee.us18.list-manage.com/subscribe/post-json?u=6b2477ebf4eab9ba9f2994aeb&id=0c78d3a1c8" method="GET" novalidate>
-				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address">
-			    <input type="submit" value="Subscribe" class="cta" name="subscribe" disabled id="mc-embedded-subscribe">
-			</form>			
-		</div>
-		<div id="newsletter-response">
-			<span class="response success">Thanks. Now you're on the list.</span>
-			<span class="response error">You may already be on the list. If not, please try again.</span>						
-		</div>
-	</div>
-	<nav class="global">
-		<ul class="main">
-		<li id="menu-item-366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-366"><a href="https://shop.ceremonycoffee.com/">Shop</a>
-<ul class="sub-menu">
-	<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="https://shop.ceremonycoffee.com/collections/coffee">Coffee</a></li>
-	<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="https://shop.ceremonycoffee.com/collections/gear">Gear</a></li>
-	<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="https://shop.ceremonycoffee.com/collections/subscription">Subscriptions</a></li>
-	<li id="menu-item-574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-574"><a href="https://ceremonycoffee.com/color/">Taste by Color</a></li>
-</ul>
-</li>
-<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-66"><a href="https://ceremonycoffee.com/wholesale/">Wholesale</a>
-<ul class="sub-menu">
-	<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a href="https://ceremonycoffee.com/wholesale/">Become a Wholesale Partner</a></li>
-	<li id="menu-item-892" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-888 current_page_item menu-item-892"><a href="https://ceremonycoffee.com/cold-brew/" aria-current="page">Cold Brew</a></li>
-</ul>
-</li>
-<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-69"><a href="https://ceremonycoffee.com/about/">About</a>
-<ul class="sub-menu">
-	<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="https://ceremonycoffee.com/about/">The Company</a></li>
-	<li id="menu-item-1104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1104"><a href="https://ceremonycoffee.com/community/">Community</a></li>
-	<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="https://ceremonycoffee.com/contact-us/">Contact Us</a></li>
-	<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a href="https://ceremonycoffee.com/jobs/">Jobs</a></li>
-	<li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-277"><a href="https://ceremonycoffee.com/faq/">FAQ</a></li>
-	<li id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="https://ceremonycoffee.com/privacy-policy/">Privacy Policy</a></li>
-</ul>
-</li>
-<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72"><a href="https://ceremonycoffee.com/locations/">Locations</a>
-<ul class="sub-menu">
-	<li id="menu-item-1105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1105"><a href="https://ceremonycoffee.com/location/whitehall-mill/">Whitehall Mill</a></li>
-	<li id="menu-item-994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-994"><a href="https://ceremonycoffee.com/location/coming-soon-bethesda/">Bethesda</a></li>
-	<li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="https://ceremonycoffee.com/location/cross-street-market/">Cross St Market</a></li>
-	<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-268"><a href="https://ceremonycoffee.com/location/harbor-point/">Harbor Point</a></li>
-	<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-267"><a href="https://ceremonycoffee.com/location/mt-vernon/">Mt. Vernon</a></li>
-	<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-266"><a href="https://ceremonycoffee.com/location/riva/">Riva</a></li>
-	<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-265"><a href="https://ceremonycoffee.com/location/the-roastery/">The Roastery</a></li>
-</ul>
-</li>
- 
-		</ul>		
-	</nav>		
-	<aside>
-		<ul>
-			<li id="gift-card-btn"><span>Gift Cards</span><br /><a href="https://shop.ceremonycoffee.com/products/gift-card">Give a Gift Today</a></li>
-			<li><span>Social Media</span> <br />Follow Ceremony</li>
-			<li><a href="https://twitter.com/ceremonycoffee" class="icon icon-twitter"></a><a href="https://www.facebook.com/CeremonyCoffee/" class="icon icon-facebook"></a><a href="https://www.instagram.com/ceremonycoffee/" class="icon icon-instagram"></a></li>
-		</ul>
-	</aside>
-	<a href="https://ceremonycoffee.com" class="logo"><img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/logo-black.svg" /><span>Coffee, Inc. &mdash; &copy;2022</a>			
-	<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/tagline.svg" id="tagline" />		
-</footer>			</div> <!--/wrapper-->
+	</section>			
+	<?php get_template_part('my-footer');?>
+				</div> <!--/wrapper-->
 		</main>
 				
 		<script src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/js/base.min.js"></script>	
