@@ -23,7 +23,9 @@
 	<meta property="og:image:width" content="1600" />
 	<meta property="og:image:height" content="1600" />
 	<meta name="twitter:card" content="summary_large_image" />
-	
+	<!-- font -->
+	<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+	<!-- end font -->
 
 
 <link rel='dns-prefetch' href='//s.w.org' />

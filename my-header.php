@@ -36,10 +36,18 @@
 				<p id= "my-slogan">Bánh cốm Nguyên Ninh ABCD ABCD</p>
 			</a>
 			</li> -->
-			<li>
-				<img src="<?php echo get_template_directory_uri() . '/assets/imgs/logo.jpg' ?>" alt="logo" id = "header-logo" style = "display:block;">
+			<!-- <li>
+				<img src="<?php /*echo get_template_directory_uri() . '/assets/imgs/logo.jpg'*/ ?>" alt="logo" id = "header-logo" style = "display:block;">
+			</li> -->
+			<li id = "logo-container">
+				<img src="<?php echo get_template_directory_uri() . '/assets/imgs/logo.jpg' ?>" alt="logo" id = "header-logo">
 			</li>
-			<li><p id = "my-slogan">BANH COM NGUYEN NINH ABCD ABCD</p> </li>
+			<li><p id = "my-slogan">
+			<!-- BÁNH CỐM NGUYÊN NINH
+			<br><br>
+			CHÍNH GỐC SỐ 11 HÀNG THAN -->
+			BÁNH CỐM NGUYÊN NINH CHÍNH GỐC SỐ 11 HÀNG THAN
+			</p> </li>
 		</ul>
 		
 		
@@ -69,10 +77,10 @@
 <!-- end test -->
 <div id="mobile-menu"  class="" data-scrollbar>
 	<ul>
-		<li class="shop-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a rel="shop" href="https://shop.ceremonycoffee.com/">SẢN PHẨM</a>
+		<li class="shop-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a rel="shop" href="<?php echo get_link_by_slug('products');?>">SẢN PHẨM</a>
 			</li>
 
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-184"><a href="https://shop.ceremonycoffee.com/collections/subscription">ABOUT US</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-184"><a href="<?php echo get_link_by_slug('about');?>">ABOUT US</a></li>
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="https://ceremonycoffee.com/wholesale/">Wholesale</a></li>
 		<li><button id="mobileBtnOpenForm" style = "margin: 20px 0 0 5px;">NHẬN TƯ VẤN</button></li>
 	</ul>	

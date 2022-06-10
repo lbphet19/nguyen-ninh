@@ -57,6 +57,12 @@ add_theme_support('post-thumbnails', array(
 'page',
 'custom-post-type-name',
 ));
+
+function get_link_by_slug($slug, $type = 'page'){
+  $post = get_page_by_path($slug, OBJECT, $type);
+  return get_permalink($post->ID);
+}
+
 function load_js(){
 	wp_enqueue_script('js_1',get_template_directory_uri(). 
 		'/ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js');
