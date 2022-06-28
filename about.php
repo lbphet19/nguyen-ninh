@@ -62,16 +62,7 @@
 		var ajaxurl = 'https://ceremonycoffee.com/wp-admin/admin-ajax.php';
 	</script>
 	<link rel="icon" type="image/png" href="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/favicon/favicon-196x196.png" sizes="196x196" />
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19177228-4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		
-		gtag('config', 'UA-19177228-4');
-		gtag('config', 'AW-803319200');
-	</script>
-	<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/6b2477ebf4eab9ba9f2994aeb/df337905d15dda187b930850d.js");</script>
+	
 </head>
 <body class="page-template-default page page-id-10" class="full-height">
 	
@@ -102,7 +93,9 @@
 								
 							</aside>
 							<figure class="feature small parallax ">
-								<img src="https://ceremonycoffee.com/wp-content/uploads/teamcupping.jpg" />
+								<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000019.jpg';  ?>" />
+
 							</figure>
 							<hgroup class="standard left small">
 								<h4>Coffee</h4>
@@ -117,11 +110,13 @@
 									
 								</hgroup>		
 								<figure class="feature small parallax ">		
-									<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-wholesale-detail3-900x900.jpg" />
+									<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000026 (1).jpg';  ?>" />
 								</figure>	
 							</section><section class="standard-intro stack left ">
 								<figure class="feature small parallax ">
-									<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-wholesale-detail2-900x900.jpg" />
+									<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000050.jpg';  ?>" />
 								</figure>
 								<hgroup class="standard left small">
 									<h4>Education</h4>
@@ -136,11 +131,13 @@
 										
 									</hgroup>		
 									<figure class="feature small parallax ">		
-										<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-wholesale-ordering-and-support.jpg" />
+										<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000067.jpg';  ?>" />
 									</figure>	
 								</section><section class="standard-intro stack left ">
 									<figure class="feature small parallax ">
-										<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-wholesale-other-stuff.jpg" />
+										<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000070.jpg';  ?>" />
 									</figure>
 									<hgroup class="standard left small">
 										<h4>All the Other Stuff</h4>
@@ -159,33 +156,10 @@
 								</main>
 								<script type='text/javascript' src='https://ceremonycoffee.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
 								<script type='text/javascript' src='https://ceremonycoffee.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.24' id='gform_json-js'></script>
-								<script type='text/javascript' id='gform_gravityforms-js-extra'>
-									/* <![CDATA[ */
-									var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/ceremonycoffee.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/ceremonycoffee.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
-									/* ]]> */
-								</script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.24' id='gform_gravityforms-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.min.js?ver=2.4.24' id='gform_textarea_counter-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.4.24' id='gform_masked_input-js'></script>
-								<script type='text/javascript' src='https://ceremonycoffee.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.24' id='gform_placeholder-js'></script>
-								<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=en&#038;render=explicit&#038;ver=5.9.2' id='gform_recaptcha-js'></script>
-								<script type="text/javascript">
-									( function( $ ) {
-										$( document ).bind( 'gform_post_render', function() {
-											var gfRecaptchaPoller = setInterval( function() {
-												if( ! window.grecaptcha || ! window.grecaptcha.render ) {
-													return;
-												}
-												renderRecaptcha();
-												clearInterval( gfRecaptchaPoller );
-											}, 100 );
-										} );
-									} )( jQuery );
-								</script>
+								
 
 								
-								<script src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/js/base.min.js"></script>	
+								<script src="<?php echo get_template_directory_uri() . '/assets/js/base.min.js';?>"></script> 
 								<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/tagline.svg" id="site-loader" />		
 							</body>
 							<?php get_footer(); ?>

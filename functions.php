@@ -25,9 +25,9 @@ function load_css_front_page(){
 	array(),false,'all');
 	wp_enqueue_style('stylesheet_6');
 
-	wp_register_style('stylesheet_7','https://ceremonycoffee.com/wp-includes/css/dist/block-library/style.min.css?ver=5.9.2',
-	array(),false,'all');
-	wp_enqueue_style('stylesheet_7');
+	// wp_register_style('stylesheet_7','https://ceremonycoffee.com/wp-includes/css/dist/block-library/style.min.css?ver=5.9.2',
+	// array(),false,'all');
+	// wp_enqueue_style('stylesheet_7');
 
 	wp_register_style('stylesheet_8','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
 	array(),false,'all');

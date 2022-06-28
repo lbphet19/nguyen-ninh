@@ -21,7 +21,7 @@
 	<meta property="og:image:width" content="1600" />
 	<meta property="og:image:height" content="790" />
 	<meta name="twitter:card" content="summary_large_image" />
-	
+	<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 <link rel='dns-prefetch' href='//s.w.org' />
 
 <style type="text/css">
@@ -98,7 +98,8 @@ ul.main li a{
 	</hgroup>
 </section><section class="standard-intro stack left ">
 				<figure class="feature small parallax ">
-			<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-about-detail1-900x900.jpg" />
+			<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000026 (1).jpg'; ?>" />
 					</figure>
 		<hgroup class="standard left small">
 							<span class="label">Est 2002</span>
@@ -108,10 +109,12 @@ ul.main li a{
 					
 	</section><section class="standard-photos">
 				<figure class="">
-				<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-about-detail3-800x951.jpg" />
+				<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000019.jpg'; ?>" />
 											</figure>		
 					<figure class="">
-				<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-about-detail4-800x951.jpg" />
+				<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000050.jpg'; ?>" />
 											</figure>		
 					
 </section><section class="standard-intro stack left ">
@@ -122,7 +125,8 @@ ul.main li a{
 	
 		</aside>
 				<figure class="feature small parallax ">
-			<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-about-detail5-900x900.jpg" />
+			<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/DSC08179.jpg'; ?>" />
 					</figure>
 		<hgroup class="standard left small">
 						<h4>Absolutely stunning coffee is an endless journey, and we’re committed for the distance. </h4>
@@ -137,11 +141,13 @@ ul.main li a{
 							
 		</hgroup>		
 		<figure class="feature small parallax ">		
-			<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-about-detail6-900x900.jpg" />
+			<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000070.jpg'; ?>" />
 					</figure>	
 	</section><section class="standard-intro stack left ">
 				<figure class="feature small parallax ">
-			<img src="https://ceremonycoffee.com/wp-content/uploads/ceremony-coffee-roasters-about-detail7-900x900.jpg" />
+			<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000067.jpg'; ?>" />
 					</figure>
 		<hgroup class="standard left small">
 						<h4>We’ll leave you happier than we found you.</h4>

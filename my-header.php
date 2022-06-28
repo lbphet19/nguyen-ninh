@@ -52,9 +52,9 @@
 		
 		
 		<ul class="main left" id = "main-nav">
-			<li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a href="#" rel="shop">SẢN PHẨM</a></li>
-			<li id="menu-item-184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-184"><a href="https://shop.ceremonycoffee.com/collections/subscription">ABOUT US</a></li>
-			<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="https://ceremonycoffee.com/wholesale/">WHOLESALE</a></li>
+			<li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-342"><a href="<?php echo get_link_by_slug('products');?>" rel="shop">SẢN PHẨM</a></li>
+			<li id="menu-item-184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-184"><a href="<?php echo get_link_by_slug('about');?>">ABOUT US</a></li>
+			<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="<?php echo get_link_by_slug('process');?>">WHOLESALE</a></li>
 			<li><button id="btnOpenForm">NHẬN TƯ VẤN</button></li>
 		</ul>
 		

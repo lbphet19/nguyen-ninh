@@ -52,6 +52,7 @@
 <link rel='shortlink' href='https://ceremonycoffee.com/' />
 <link rel="alternate" type="application/json+oembed" href="https://ceremonycoffee.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fceremonycoffee.com%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://ceremonycoffee.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fceremonycoffee.com%2F&#038;format=xml" />
+<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 <!-- <link rel="stylesheet" href="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/css/style.css" /> -->
 <!-- <link rel="stylesheet" href = "./test-giaodien.css"> -->
 <script src=" <?php echo get_template_directory_uri() . '/assets/js/libs.min.js' ?>"></script>
@@ -233,7 +234,7 @@
 			</div> <!--/wrapper-->
 		</main>
 
-		<script src="./base.min.js"></script>	
+	
 		<script src = "<?php echo get_template_directory_uri() . '/assets/js/my-carousel.js'; ?>"></script>
 		<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/tagline.svg" id="site-loader" />		
 	</body>

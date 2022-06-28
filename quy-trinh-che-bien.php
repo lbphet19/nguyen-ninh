@@ -23,7 +23,7 @@
 	<meta property="og:image:width" content="1600" />
 	<meta property="og:image:height" content="901" />
 	<meta name="twitter:card" content="summary_large_image" />
-	
+	<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 
 
 <link rel='dns-prefetch' href='//s.w.org' />
@@ -80,7 +80,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <section id="hero" class="slick  single  standard">
 			<article class="left alt">
 								
-			<img src="https://ceremonycoffee.com/wp-content/uploads/cmy-coldbrew-hero-2-1600x900.jpg" width="1600" height="900" />
+			<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/DSC08179.jpg'; ?>" width="1600" height="900" />
 						<hgroup class="standard">
 												<h1 class="sequenced"><span><span>Taste </span></span> <span><span>the </span></span> <span><span>Future </span></span> <span><span>of </span></span> <span><span>Cold </span></span> <span><span>Brew</span></span></h1>
 				<p>Now you can enjoy specialty single origin and nitro cold brews at your business, office, or event. For wholesale orders, delivery is free, and there are no commitments.</p>
@@ -94,17 +95,19 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	</hgroup>
 </section><section class="standard-photos">
 				<figure class="">
-				<img src="https://ceremonycoffee.com/wp-content/uploads/cmy-coldbrew-pouring-1-800x999.jpg" />
+				<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000019.jpg'; ?>" />
 													<figcaption>
 						Available at regional retailers, Ceremony locations, and wholesale.					</figcaption>
 							</figure>		
 					<figure class="">
-				<img src="https://ceremonycoffee.com/wp-content/uploads/nitrohandle-ceremony-coffee-recrop-800x999.jpg" />
+				<img src="<?php echo get_template_directory_uri() .
+									'/assets/imgs/000026 (1).jpg'; ?>" />
 													<figcaption>
 						Nitro kegs available through wholesale.					</figcaption>
 							</figure>		
 					
-</section><section class="text-list">
+</section><!-- <section class="text-list">
 					<article >
 			<h2>For ordering and wholesale info, contact:</h2>
 			<p><a href="mailto:info@ceremonycoffee.com?subject=website%20cold%20brew%20request">info@ceremonycoffee.com</a> 410-626-0011   To open your wholesale account, <a href="https://ceremonycoffee.com/wholesale/">sign up here</a>.</p>
@@ -117,12 +120,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			<h2>Find us in these retailers:</h2>
 			<p><a href="https://ceremonycoffee.com/locations/">Ceremony Cafes</a>, <a href="https://www.wholefoodsmarket.com/" target="_blank" rel="noopener">Whole Foods Market</a>, <a href="https://momsorganicmarket.com/" target="_blank" rel="noopener">MOM&#8217;s Organic Market</a>, <a href="https://dawsonsmarket.com/">Dawson&#8217;s Market,</a> <a href="http://greenvalleymarketplace.com/" target="_blank" rel="noopener">Green Valley Market,</a></p>
 		</article>
-	</section>			
+	</section>			 -->
 	<?php get_template_part('my-footer');?>
 				</div> <!--/wrapper-->
 		</main>
 				
-		<script src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/js/base.min.js"></script>	
+		<script src="<?php echo get_template_directory_uri(). '/assets/js/base.min.js'; ?>"></script>
+		<script src="<?php echo get_template_directory_uri(). '/assets/js/front-page-main-script.js'; ?>"></script>		
 		<img src="https://ceremonycoffee.com/wp-content/themes/ceremony/assets/images/tagline.svg" id="site-loader" />		
 	</body>
 	<?php get_footer(); ?>

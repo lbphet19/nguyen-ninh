@@ -191,6 +191,7 @@
 
 
 #btnOpenForm, #mobileBtnOpenForm {
+  font-family: 'Playfair Display';
   margin-top: -9px;
   outline: none;
   height: 45px;
