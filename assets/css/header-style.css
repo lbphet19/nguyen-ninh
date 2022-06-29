@@ -1,0 +1,223 @@
+#form-header{
+  font-size: 4em;
+  text-align: center;
+}
+@media(max-width: 1024px){
+  #form-header{
+    font-size: 2.5em;
+  }
+}
+#form-header:after {
+  content: ' ';
+    background: #000;
+    width:  8rem;
+    height: 0.125rem;
+    margin-top: 0.625rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wpcf7 form .wpcf7-response-output{
+  margin: 0;
+}
+
+.form-popup-bg {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-popup-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(94, 110, 141, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  overflow-y: auto;
+  z-index: 10000;
+}
+.form-popup-bg.is-visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+  padding: 30px 40px 30px 40px;
+  color: black;
+}
+.close-button {
+  background:none;
+  color: black;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: solid 1px black;
+}
+
+.form-popup-bg:before{
+    content:'';
+    background-color: #fff;
+  opacity: .25;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* slider */
+.my-carousel{
+  height: 35em;
+  /* width: calc(100%-120px); */
+  /* padding: 90px 60px 0; */
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  /* max-width: 678px; */
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 13px;
+}
+@media (max-width: 1024px){
+    .my-carousel{
+        width: calc(100%-40px);
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 30em;
+    }
+}
+.my-carousel-inner{
+  height: 100%;
+  /* min-width: 400%; */
+  display: flex;
+  transition: all ease .5s;
+}
+.my-carousel-item{
+  width: 100%;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.my-carousel-item img{
+  height: 100%;
+}
+.my-carousel-item h1{
+  opacity: .5;
+}
+.my-carousel-controls .prev{
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('prev.svg');
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: .5;
+}
+.my-carousel-controls .next{
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('next.svg');
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: .5;
+}
+.my-prev:hover, .next:hover{
+  opacity: 1;
+}
+.my-carousel-indicators{
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.my-carousel-indicators span{
+  display: inline-block;
+  background-color: white;
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  opacity: .5;
+  cursor: pointer;
+  margin: 3px;
+}
+.my-carousel-indicators span.active{
+  opacity: 1;
+}
+
+
+#btnOpenForm, #mobileBtnOpenForm {
+  font-family: 'Playfair Display';
+  margin-top: -9px;
+  outline: none;
+  height: 45px;
+  text-align: center;
+  width: 170px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1ecd97;
+  color: #1ecd97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+#btnOpenForm:hover, #mobileBtnOpenForm:hover {
+  color: white;
+  background: #1ecd97;
+}
+#btnOpenForm:active, #mobileBtnOpenForm:active {
+  letter-spacing: 2px;
+}
+
+
+/* new form */
+
+
+

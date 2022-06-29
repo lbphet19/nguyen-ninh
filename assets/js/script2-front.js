@@ -1,0 +1,3 @@
+
+
+{"accessToken":"d6f5a6485a8c3e14463c306d74e97506","betas":["rich-media-storefront-analytics"],"domain":"nou-bready.myshopify.com","predictiveSearch":true,"shopId":13702070330,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en"}
