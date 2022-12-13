@@ -43,11 +43,11 @@ get_header(); ?>
                 ĐẶC BIỆT?
             </p>
             <div class="inline-flex items-start justify-center w-full">
-                <div class="w-[70%]">
+                <div class="w-[72%]">
                     <p class="text-8xl text-gray-700 leading-[7rem] font-prata">“Một món quà ghi dấu đất kinh
                         kì”
                     </p>
-                </div>
+                </div> 
             </div>
             <div class="inline-flex items-start justify-center w-full">
                 <div class="w-[70%]">
@@ -148,7 +148,7 @@ get_header(); ?>
                                             </div>
                                         </div>
                                         <p class="w-full text-5xl leading-[3.5rem] text-gray-700">Luôn nói không với
-                                            chất<br />bảo quản</p>
+                                            chất bảo quản</p>
                                     </div>
                                     <div class="w-full">
                                         <p
@@ -187,7 +187,7 @@ get_header(); ?>
                                             </div>
                                         </div>
                                         <p class="w-full text-5xl leading-[3.5rem] text-white">Không có
-                                            địa chỉ<br />thứ hai</p>
+                                            địa chỉ thứ hai</p>
                                     </div>
                                     <div class="w-full">
                                         <p
@@ -229,7 +229,7 @@ get_header(); ?>
                                             </div>
                                         </div>
                                         <p class="w-full text-5xl leading-[3.5rem] text-gray-700">Không pha
-                                            bột,<br />không tạp chất</p>
+                                            bột, không tạp chất</p>
                                     </div>
                                     <div class="w-full">
                                         <p
@@ -400,7 +400,6 @@ get_header(); ?>
 var glideHero = new Glide('.hero', {
     type: 'carousel',
     animationDuration: 2000,
-    autoplay: 1000000,
     focusAt: '1',
     startAt: 1,
     perView: 1,

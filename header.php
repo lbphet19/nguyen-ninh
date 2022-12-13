@@ -4,7 +4,7 @@
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/assets/font-awesome/css/style.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 <?php wp_head(); ?>
 <style>
@@ -17,7 +17,12 @@
 
 @font-face {
   font-family: raleway ;
-  src: url(<?php echo get_template_directory_uri(); ?>/src/assets/fonts/Raleway-VariableFont_wght.ttf);
+  src: url(<?php echo get_template_directory_uri(); ?>/src/assets/fonts/RALEWAY-MEDIUM.ttf);
+}
+
+@font-face {
+  font-family: raleway-bold ;
+  src: url(<?php echo get_template_directory_uri(); ?>/src/assets/fonts/RALEWAY-BOLD.ttf);
 }
 
 body{
@@ -38,7 +43,7 @@ body{
 </head> 
 <body <?php body_class(); ?>>
 <div class="flex items-center justify-between px-14 py-5 w-full">
-<p class="text-4xl leading-10 text-gray-900 font-raleway">Nguyên Ninh</p>
+<p class="text-4xl leading-10 text-gray-900 font-prata">Nguyên Ninh</p>
 <div class="flex items-center justify-center">
 <div class = "flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">Sản phẩm</div>
 <div class = "flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">Về Nguyên Ninh</div>

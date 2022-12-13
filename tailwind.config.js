@@ -17,6 +17,7 @@ module.exports = {
     extend:{
       fontFamily:{
         'raleway':['raleway', 'sans-serif'],
+        'raleway-bold':['raleway-bold', 'sans-serif'],
         'prata':['prata']
       }
     }
