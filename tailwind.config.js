@@ -3,8 +3,8 @@ module.exports = {
   plugins: [require("@tailwindcss/typography")],
   theme:{
     screens: {
-        'mobile': {'max': '767px'},
-         // => @media (max-width: 767px) { ... }
+        'mobile': {'max': '821px'},
+         // => @media (max-width: 821px) { ... }
         'tablet': {'max': '1023px'},
         // => @media (max-width: 1023px) { ... }
   
