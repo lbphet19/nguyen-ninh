@@ -3,7 +3,7 @@
         <div class="pt-24 px-24 mobile:px-4 flex-col flex">
             <div class="font-medium text-base text-[#183401] uppercase">Newsletter</div>
             <div
-                class="mt-8 ml-56 mobile:!ml-0 mobile:!text-5xl mobile:!leading-3 font-prata laptop:text-7xl text-[84px] laptop:!leading-[6rem] text-[#183401]">
+                class="mt-8 ml-56 mobile:!ml-0 mobile:!text-5xl mobile:!leading-3 font-prata desktop:text-7xl text-[84px] desktop:!leading-[6rem] text-[#183401]">
                 Theo dõi <span class="text-[#53802B]">Nguyên Ninh<span></div>
             <div class="ml-56 mobile:ml-0 flex mobile:block mobile:gap-2 gap-16 mt-16 mb-24">
                 <div class="font-medium w-1/2 mobile:w-full text-base leading-[26px] text-[#52544F]">Điền email vào đây
@@ -31,8 +31,8 @@
     </div>
 </div>
 <div class="w-full flex bg-[#183401] mobile:hidden">
-    <div class="flex-col gap-12 pl-14 py-24 w-1/3 ">
-        <div class="font-prata font-normal text-[2.5rem] laptop:text-[2rem] leading-[3rem] text-white w-2/3">Bánh cốm
+    <div class="flex-col gap-12 pl-14 pt-24 w-1/3 ">
+        <div class="font-prata font-normal text-[2.5rem] desktop:text-[2rem] leading-[3rem] text-white w-2/3">Bánh cốm
             Nguyên Ninh</div>
         <div class="flex-col gap-16 mt-12">
             <div class="flex justify-between pb-[12px] mt-6 border-b-[0.5px] border-[#285601]">
@@ -48,17 +48,9 @@
                 <div class="font-bold text-xs leading-[22px] text-white">banhcomnguyenninh@gmail.com</div>
             </div>
         </div>
-        <div class="flex mt-12 justify-end">
-            <a href="#" class="text-white text-base block">FACEBOOK
-                <i class="fa-light fa-arrow-up rotate-45 text-white"></i>
-            </a>
-            <div class="transform -rotate-90 w-4 h-0.5 border-white border mx-6 border-solid mt-[8px]"></div>
-            <a href="#" class="text-white text-base block">INSTAGRAM
-                <i class="fa-light fa-arrow-up rotate-45 text-white"></i>
-            </a>
-        </div>
+
     </div>
-    <div class="flex-col gap-16 py-24 ml-24 w-2/3 pr-20">
+    <div class="flex-col gap-16 pt-24 ml-24 w-2/3 pr-20">
         <div class="flex">
             <div class="flex-col gap-8 ml-12">
                 <div class="text-white font-medium text-base leading-4 uppercase">sản phẩm</div>
@@ -115,22 +107,34 @@
             <a href="#" class="text-white text-xs block">ENG
             </a>
         </div>
-        <div class="flex justify-between">
-            <div class="flex pt-8 mt-[3px]">
-                <a href="#" class="text-white text-base mr-12">COOKIE
-                </a>
-                <a href="#" class="text-white text-base ">QUYỀN RIÊNG TƯ
-                </a>
-            </div>
-            <div class="pt-8 mt-[3px]">
-                <p class="uppercase font-medium text-sm text-white mr-6"><i
-                        class="fa-regular fa-copyright text-white  mr-[3px]"></i> NGUYÊN NINH 2022</p>
-            </div>
+
+    </div>
+</div>
+<div class="w-full flex bg-[#183401] pb-24 mobile:hidden">
+    <div class="flex pt-8 mt-[3px] justify-end w-1/3 pl-14">
+        <a href="#" class="text-white text-base block">FACEBOOK
+            <i class="fa-light fa-arrow-up rotate-45 text-white"></i>
+        </a>
+        <div class="transform -rotate-90 w-4 h-0.5 border-white border mx-6 border-solid mt-[8px]"></div>
+        <a href="#" class="text-white text-base block">INSTAGRAM
+            <i class="fa-light fa-arrow-up rotate-45 text-white"></i>
+        </a>
+    </div>
+    <div class="flex justify-between ml-24 w-2/3 pr-14">
+        <div class="flex pt-8 mt-[3px]">
+            <a href="#" class="text-white text-base mr-12">COOKIE
+            </a>
+            <a href="#" class="text-white text-base ">QUYỀN RIÊNG TƯ
+            </a>
+        </div>
+        <div class="pt-8 mt-[3px]">
+            <p class="uppercase font-medium text-sm text-white mr-6"><i
+                    class="fa-regular fa-copyright text-white  mr-[3px]"></i> NGUYÊN NINH 2022</p>
         </div>
     </div>
 </div>
 
-<div class="w-full bg-[#183401] mobile:!flex flex-col laptop:hidden px-4">
+<div class="w-full bg-[#183401] mobile:!flex flex-col desktop:hidden px-4">
     <div class="font-prata font-normal text-3xl w-full leading-[3rem] text-white text-center">Bánh cốm
         Nguyên Ninh</div>
 

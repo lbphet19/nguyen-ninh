@@ -5,7 +5,6 @@
 ?>
 <?php
 get_header(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
 
 <div class="px-14 mobile:px-4 w-full mobile:mt-4">
@@ -276,10 +275,10 @@ get_header(); ?>
                 <img src="https://via.placeholder.com/664x514" class="w-full max-h-full" alt="">
                 <div class="absolute mobile:static mobile:!mt-0 mobile:h-[50%] w-[55%] mobile:w-full left-0 bottom-0 bg-red-50 border border-red-200">
                     <div class="flex flex-col px-8 pt-8">
-                        <div class="font-bold text-3xl laptop:text-2xl leading-8 text-[#383A36] mb-4">
+                        <div class="font-bold text-3xl desktop:text-2xl leading-8 text-[#383A36] mb-4">
                             <p>Món quà từ những người phụ nữ trong gia đình</p>
                         </div>
-                        <div class="text-sm font-medium laptop:text-sm leading-7 text-[#636366]">
+                        <div class="text-sm font-medium desktop:text-sm leading-7 text-[#636366]">
                             <p>Có một điều mà thực khách có thể ít biết tới, đó là bánh cốm Nguyên Ninh chủ yếu được làm
                                 ra bởi những người phụ nữ trong gia đình. Thương hiệu...</p>
                         </div>
@@ -296,17 +295,17 @@ get_header(); ?>
             </div>
             <div class="inline-flex flex-col  items-center max-h-[600px] mobile:mt-8">
                 <img src="https://via.placeholder.com/664x514" alt="" class="h-[50%] w-full">
-                <div class="bg-red-50 border border-red-200 h-[50%] mt-0">
+                <div class="bg-red-50 border border-red-200 h-[50%] mt-0 flex flex-col justify-between">
                     <div class="flex flex-col px-8 pt-8">
-                        <div class="font-bold text-3xl laptop:text-2xl leading-8 text-[#383A36] mb-4">
+                        <div class="font-bold text-3xl desktop:text-2xl leading-8 text-[#383A36] mb-4">
                             <p>Món quà từ những người phụ nữ trong gia đình</p>
                         </div>
-                        <div class="text-sm font-medium laptop:text-sm leading-7 text-[#636366]">
+                        <div class="text-sm font-medium desktop:text-sm leading-7 text-[#636366]">
                             <p>Có một điều mà thực khách có thể ít biết tới, đó là bánh cốm Nguyên Ninh chủ yếu được làm
                                 ra bởi những người phụ nữ trong gia đình. Thương hiệu...</p>
                         </div>
                     </div>
-                    <div class="flex justify-between pt-10 px-8 mobile:pb-4 ">
+                    <div class="flex justify-between pt-10 px-8 mobile:pb-4 pb-4">
                         <div class="text-sm font-bold tracking-widest leading-none text-center text-black">
                             ĐỌC CÂU CHUYỆN
                             <i class="fa-solid fa-arrow-up rotate-45 text-black"></i>
@@ -318,17 +317,17 @@ get_header(); ?>
             </div>
             <div class="inline-flex flex-col  items-center max-h-[600px] mobile:mt-8">
                 <img src="https://via.placeholder.com/664x514" alt="" class="h-[50%] w-full">
-                <div class="bg-red-50 border border-red-200 h-[50%] mt-0">
+                <div class="bg-red-50 border border-red-200 h-[50%] mt-0 flex flex-col justify-between">
                     <div class="flex flex-col px-8 pt-8">
-                        <div class="font-bold text-3xl laptop:text-2xl leading-8 text-[#383A36] mb-4">
+                        <div class="font-bold text-3xl desktop:text-2xl leading-8 text-[#383A36] mb-4">
                             <p>Món quà từ những người phụ nữ trong gia đình</p>
                         </div>
-                        <div class="text-sm font-medium laptop:text-sm leading-7 text-[#636366]">
+                        <div class="text-sm font-medium desktop:text-sm leading-7 text-[#636366]">
                             <p>Có một điều mà thực khách có thể ít biết tới, đó là bánh cốm Nguyên Ninh chủ yếu được làm
                                 ra bởi những người phụ nữ trong gia đình. Thương hiệu...</p>
                         </div>
                     </div>
-                    <div class="flex justify-between pt-10 px-8 mobile:pb-4">
+                    <div class="flex justify-between pt-10 px-8 mobile:pb-4 pb-4">
                         <div class="text-sm font-bold tracking-widest leading-none text-center text-black">
                             ĐỌC CÂU CHUYỆN
                             <i class="fa-solid fa-arrow-up rotate-45 text-black"></i>
@@ -340,17 +339,17 @@ get_header(); ?>
             </div>
             <div class="inline-flex flex-col  items-center max-h-[600px] mobile:mt-8">
                 <img src="https://via.placeholder.com/664x514" alt="" class="h-[50%] w-full">
-                <div class="bg-red-50 border border-red-200 h-[50%] mt-0">
+                <div class="bg-red-50 border border-red-200 h-[50%] mt-0 flex flex-col justify-between">
                     <div class="flex flex-col px-8 pt-8">
-                        <div class="font-bold text-3xl laptop:text-2xl leading-8 text-[#383A36] mb-4">
+                        <div class="font-bold text-3xl desktop:text-2xl leading-8 text-[#383A36] mb-4">
                             <p>Món quà từ những người phụ nữ trong gia đình</p>
                         </div>
-                        <div class="text-sm font-medium laptop:text-sm leading-7 text-[#636366]">
+                        <div class="text-sm font-medium desktop:text-sm leading-7 text-[#636366]">
                             <p>Có một điều mà thực khách có thể ít biết tới, đó là bánh cốm Nguyên Ninh chủ yếu được làm
                                 ra bởi những người phụ nữ trong gia đình. Thương hiệu...</p>
                         </div>
                     </div>
-                    <div class="flex justify-between pt-10 px-8 mobile:pb-4">
+                    <div class="flex justify-between pt-10 px-8 mobile:pb-4 pb-4">
                         <div class="text-sm font-bold tracking-widest leading-none text-center text-black">
                             ĐỌC CÂU CHUYỆN
                             <i class="fa-solid fa-arrow-up rotate-45 text-black"></i>
@@ -362,17 +361,17 @@ get_header(); ?>
             </div>
             <div class="inline-flex flex-col  items-center max-h-[600px] mobile:mt-8">
                 <img src="https://via.placeholder.com/664x514" alt="" class="h-[50%] w-full">
-                <div class="bg-red-50 border border-red-200 h-[50%] mt-0">
+                <div class="bg-red-50 border border-red-200 h-[50%] mt-0 flex flex-col justify-between">
                     <div class="flex flex-col px-8 pt-8">
-                        <div class="font-bold text-3xl laptop:text-2xl leading-8 text-[#383A36] mb-4">
+                        <div class="font-bold text-3xl desktop:text-2xl leading-8 text-[#383A36] mb-4">
                             <p>Món quà từ những người phụ nữ trong gia đình</p>
                         </div>
-                        <div class="text-sm font-medium laptop:text-sm leading-7 text-[#636366]">
+                        <div class="text-sm font-medium desktop:text-sm leading-7 text-[#636366]">
                             <p>Có một điều mà thực khách có thể ít biết tới, đó là bánh cốm Nguyên Ninh chủ yếu được làm
                                 ra bởi những người phụ nữ trong gia đình. Thương hiệu...</p>
                         </div>
                     </div>
-                    <div class="flex justify-between pt-10 px-8 mobile:pb-4">
+                    <div class="flex justify-between pt-10 px-8 mobile:pb-4 pb-4">
                         <div class="text-sm font-bold tracking-widest leading-none text-center text-black">
                             ĐỌC CÂU CHUYỆN
                             <i class="fa-solid fa-arrow-up rotate-45 text-black"></i>
@@ -382,6 +381,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+            
         </div>
         <div class="inline-flex space-x-1.5 items-center justify-center self-center rounded-full">
             <div class="relative bg-gray-900 rounded-full" style="width: 163px; height: 52px;">
@@ -397,7 +397,7 @@ get_header(); ?>
 
 var glideHero = new Glide('.hero', {
     type: 'carousel',
-    animationDuration: 2000,
+    animationDuration: 1000,
     focusAt: '1',
     startAt: 1,
     perView: 1,

@@ -5,7 +5,6 @@
 ?>
 <?php
 get_header(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
 
 <div class="px-14 w-full bg-[#F9F8F1]">
@@ -16,7 +15,7 @@ get_header(); ?>
             </p>
             <div class="inline-flex items-center self-center justify-center px-28">
                 <div>
-                    <p class="text-[82px] laptop:text-7xl !leading-[7rem] text-gray-700 font-prata">Câu chuyện của
+                    <p class="text-[82px] desktop:text-7xl !leading-[7rem] text-gray-700 font-prata">Câu chuyện của
                         Nguyên Ninh bắt đầu vào năm 1865</p>
                 </div>
             </div>

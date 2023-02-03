@@ -8,7 +8,9 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/assets/font-awesome/css/style.css">
     <link rel="stylesheet"
-        href="<?php echo get_template_directory_uri(); ?>/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+        href="<?php echo get_template_directory_uri(); ?>/@glidejs/glide/dist/css/glide.core.min.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/@glidejs/glide/dist/glide.min.js"></script>
+    
     <?php wp_head(); ?>
     <style>
     /* fonts */
@@ -51,17 +53,22 @@
 
 <body <?php body_class(); ?>>
     <div class="flex items-center justify-between px-14 py-5 w-full mobile:hidden">
-        <p class="text-4xl leading-10 text-gray-900 font-prata">Nguyên Ninh</p>
+        <p class="text-4xl leading-10 text-gray-900 font-prata">
+        <a href = "<?php echo get_permalink( get_page_by_path( 'home' ) );?>">Nguyên Ninh</a>
+        </p>
         <div class="flex items-center justify-center">
             <div
                 class="flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">
-                Sản phẩm</div>
+                <a href = "<?php echo get_permalink( get_page_by_path( 'product' ) );?>">Sản phẩm</a>
+            </div>
             <div
                 class="flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">
-                Về Nguyên Ninh</div>
+                <a href = "<?php echo get_permalink( get_page_by_path( 'about' ) );?>">Về Nguyên Ninh</a>
+                </div>
             <div
                 class="flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">
-                Câu chuyện</div>
+                <a href = "<?php echo get_permalink( get_page_by_path( 'our-story' ) );?>">Câu chuyện</a>
+                </div>
             <div class="flex space-x-1 items-center  gap-1 mr-16 last:mr-0 rounded-full">
                 <div class="relative bg-[#306701] rounded-full w-[11rem] h-12">
                     <p
@@ -74,7 +81,7 @@
 
         </div>
     </div>
-    <nav class="bg-white shadow-lg mobile:!block laptop:hidden ">
+    <nav class="bg-white shadow-lg mobile:!block desktop:hidden ">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
                 <div class="flex space-x-7">

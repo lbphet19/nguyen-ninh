@@ -5,7 +5,6 @@
 ?>
 <?php
 get_header(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
 <div class="px-14 py-24 w-full bg-[#F9F8F1]">
     <div class="flex flex-col items-center w-4/5 mx-auto">
@@ -158,7 +157,8 @@ get_header(); ?>
 <div class="px-14 py-24 w-full bg-white">
     <div class="inline-flex flex-col space-y-16 items-start justify-start mt-[96px] mb-[96px]">
         <div class="inline-flex flex-col space-y-8 items-start justify-start">
-            <p class="text-base font-medium tracking-wider leading-[7rem] ml-16 text-gray-700">SẢN PHẨM CỦA NGUYÊN NINH CÓ
+            <p class="text-base font-medium tracking-wider leading-[7rem] ml-16 text-gray-700">SẢN PHẨM CỦA NGUYÊN NINH
+                CÓ
                 GÌ
                 ĐẶC BIỆT?
             </p>
@@ -184,16 +184,17 @@ get_header(); ?>
 
     </div>
     <div class="wrap">
-        <div class="glide hero">
+        <div class="glide hero2">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <li class="glide__slide max-h-[500px]">
-                        <div class="inline-flex items-center justify-start max-h-[500px]">
-                            <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[500px]">
+                        <div class="inline-flex items-center justify-start max-h-[500px] mobile:flex-col">
+                            <div
+                                class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[500px] mobile:w-full mobile:order-2">
                                 <div
-                                    class="inline-flex flex-col space-y-12 items-start justify-between p-16 bg-[#BACCAA]">
+                                    class="inline-flex flex-col mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#BACCAA]">
                                     <div class="flex flex-col space-y-8 items-start justify-start w-full">
-                                        <div class="inline-flex space-x-4 items-center justify-center">
+                                        <div class="inline-flex space-x-4 items-center justify-center mobile:pl-4">
                                             <div class="h-full pt-0.5">
                                                 <p class="text-xl leading-normal text-center text-gray-700">01</p>
                                             </div>
@@ -205,12 +206,14 @@ get_header(); ?>
                                                 <p class="text-xl leading-normal text-center text-gray-700">03</p>
                                             </div>
                                         </div>
-                                        <p class="w-full text-5xl leading-[3.5rem] text-gray-700">Luôn nói không với
+                                        <p
+                                            class="w-full text-5xl mobile:px-4 mobile:text-2xl mobile:!mt-0 leading-[3.5rem] text-gray-700">
+                                            Luôn nói không với
                                             chất bảo quản</p>
                                     </div>
-                                    <div class="w-full">
+                                    <div class="w-full mobile:!mt-0 mobile:px-4">
                                         <p
-                                            class="w-full text-sm tracking-wider leading-relaxed text-justify text-gray-700">
+                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-relaxed text-justify text-gray-700">
                                             Bánh cốm Nguyên Ninh chính gốc số 11 Hàng Than từ lâu đã nổi tiếng với việc
                                             không sử dụng chất bảo quản. Dù rằng nếu sử dụng chất bảo quản theo sự cho
                                             phép của bộ Y tế thì bánh sẽ để được lâu hơn nhưng Nguyên Ninh vẫn luôn
@@ -219,20 +222,22 @@ get_header(); ?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex items-center justify-start bg-black w-[60%]">
-                                <img class="rounded-lg w-full" src="https://via.placeholder.com/664x514" />
+                            <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
+                                <img class="rounded-lg w-full mobile:max-h-[225px]"
+                                    src="https://via.placeholder.com/664x514" />
 
                             </div>
 
                         </div>
                     </li>
                     <li class="glide__slide max-h-[500px]">
-                        <div class="inline-flex items-center justify-start max-h-[500px]">
-                            <div class="flex items-center justify-start bg-[#383A36] w-[40%] h-[500px]">
+                        <div class="inline-flex items-center justify-start max-h-[500px] mobile:flex-col">
+                            <div
+                                class="flex items-center justify-start bg-[#383A36] w-[40%] h-[500px] mobile:w-full mobile:order-2">
                                 <div
-                                    class="inline-flex flex-col space-y-12 items-start justify-between p-16 bg-[#383A36]">
+                                    class="inline-flex flex-col mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#383A36]">
                                     <div class="flex flex-col space-y-8 items-start justify-start w-full">
-                                        <div class="inline-flex space-x-4 items-center justify-center">
+                                        <div class="inline-flex space-x-4 items-center justify-center mobile:pl-4">
                                             <div class="h-full pt-0.5">
                                                 <p class="text-xl leading-normal text-center text-white">02</p>
                                             </div>
@@ -244,12 +249,14 @@ get_header(); ?>
                                                 <p class="text-xl leading-normal text-center text-white">03</p>
                                             </div>
                                         </div>
-                                        <p class="w-full text-5xl leading-[3.5rem] text-white">Không có
+                                        <p
+                                            class="w-full text-5xl mobile:px-4 mobile:text-2xl mobile:!mt-0 leading-[3.5rem] text-white">
+                                            Không có
                                             địa chỉ thứ hai</p>
                                     </div>
-                                    <div class="w-full">
+                                    <div class="w-full mobile:!mt-0 mobile:px-4">
                                         <p
-                                            class="w-full text-sm tracking-wider leading-relaxed text-justify text-white">
+                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-relaxed text-justify text-white">
                                             Bánh cốm Nguyên Ninh chỉ có duy nhất một địa chỉ tại số 11 phố Hàng Than, Hà
                                             Nội. Đây
                                             là cửa hiệu gia truyền của gia đình, vốn là 1 ngôi nhà cổ vẫn giữ nguyên lối
@@ -261,20 +268,22 @@ get_header(); ?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex items-center justify-start bg-black w-[60%]">
-                                <img class="rounded-lg w-full" src="https://via.placeholder.com/664x514" />
+                            <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
+                                <img class="rounded-lg w-full mobile:max-h-[225px]"
+                                    src="https://via.placeholder.com/664x514" />
 
                             </div>
 
                         </div>
                     </li>
                     <li class="glide__slide max-h-[500px]">
-                        <div class="inline-flex items-center justify-start max-h-[500px]">
-                            <div class="flex items-center justify-start bg-[#E0DAB8] w-[40%] h-[500px]">
+                        <div class="inline-flex items-center justify-start max-h-[500px] mobile:flex-col">
+                            <div
+                                class="flex items-center justify-start bg-[#E0DAB8] w-[40%] h-[500px] mobile:w-full mobile:order-2">
                                 <div
-                                    class="inline-flex flex-col space-y-12 items-start justify-between p-16 bg-[#E0DAB8]">
+                                    class="inline-flex flex-col mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#E0DAB8]">
                                     <div class="flex flex-col space-y-8 items-start justify-start w-full">
-                                        <div class="inline-flex space-x-4 items-center justify-center">
+                                        <div class="inline-flex space-x-4 items-center justify-center mobile:pl-4">
                                             <div class="h-full pt-0.5">
                                                 <p class="text-xl leading-normal text-center text-gray-700">03</p>
                                             </div>
@@ -286,12 +295,13 @@ get_header(); ?>
                                                 <p class="text-xl leading-normal text-center text-gray-700">03</p>
                                             </div>
                                         </div>
-                                        <p class="w-full text-5xl leading-[3.5rem] text-gray-700">Không pha
-                                            bột, không tạp chất</p>
-                                    </div>
-                                    <div class="w-full">
                                         <p
-                                            class="w-full text-sm tracking-wider leading-relaxed text-justify text-gray-700">
+                                            class="w-full text-5xl mobile:px-4 mobile:text-2xl mobile:!mt-0 leading-[3.5rem] text-gray-700">
+                                            Không pha bột, không tạp chất</p>
+                                    </div>
+                                    <div class="w-full mobile:!mt-0 mobile:px-4">
+                                        <p
+                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-relaxed text-justify text-gray-700">
                                             Bánh cốm Nguyên Ninh chính gốc số 11 Hàng Than từ lâu đã nổi tiếng với việc
                                             không sử dụng chất bảo quản. Dù rằng nếu sử dụng chất bảo quản theo sự cho
                                             phép của bộ Y tế thì bánh sẽ để được lâu hơn nhưng Nguyên Ninh vẫn luôn
@@ -300,8 +310,9 @@ get_header(); ?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex items-center justify-start bg-black w-[60%]">
-                                <img class="rounded-lg w-full" src="https://via.placeholder.com/664x514" />
+                            <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
+                                <img class="rounded-lg w-full mobile:max-h-[225px]"
+                                    src="https://via.placeholder.com/664x514" />
 
                             </div>
 
@@ -310,7 +321,7 @@ get_header(); ?>
 
                 </ul>
             </div>
-            <div class="glide__arrows absolute bottom-8 right-8" data-glide-el="controls">
+            <div class="glide__arrows absolute bottom-8 right-8 mobile:hidden" data-glide-el="controls">
                 <button class="glide__arrow glide__arrow--left mr-4 p-5 gap-5 w-16 h-16 bg-white rounded-[2rem]"
                     data-glide-dir="<"><i class="leading-[100%] text-xl fa-light fa-arrow-left"></i></button>
                 <button class="glide__arrow glide__arrow--right p-5 gap-5 w-16 h-16 bg-white rounded-[2rem]"
@@ -337,6 +348,16 @@ var glideHero = new Glide('.hero', {
     perView: 1,
 });
 
+var glideHero2 = new Glide('.hero2', {
+    type: 'carousel',
+    animationDuration: 1000,
+    focusAt: '1',
+    startAt: 1,
+    perView: 1,
+});
+
 glideHero.mount();
+glideHero2.mount();
+
 </script>
 <?php get_footer()?>
