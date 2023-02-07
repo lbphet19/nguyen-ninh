@@ -265,7 +265,7 @@ get_header(); ?>
             NGUYÊN NINH</p>
         <div class="inline-flex items-start justify-center w-full mobile:mt-8">
             <div class="w-[70%] mobile:w-full mb-16 mobile:mb-0">
-                <p class="text-8xl mobile:text-[3rem] mobile:!leading-[5rem] mobile:text-center text-gray-700 leading-[7rem] font-prata">Những mảnh truyện đời
+                <p class="text-8xl mobile:text-[3rem] mobile:!leading-[5rem] mobile:text-center text-gray-700 leading-[7rem] font-prata">“Những mảnh truyện đời
                     nho nhỏ”
                 </p>
             </div>

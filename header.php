@@ -54,23 +54,23 @@
 <body <?php body_class(); ?>>
     <div class="flex items-center justify-between px-14 py-5 w-full mobile:hidden">
         <p class="text-4xl leading-10 text-gray-900 font-prata">
-        <a href = "<?php echo get_permalink( get_page_by_path( 'home' ) );?>">Nguyên Ninh</a>
+        <a id="home" href = "<?php echo get_permalink( get_page_by_path( 'home' ) );?>">Nguyên Ninh</a>
         </p>
         <div class="flex items-center justify-center">
             <div
                 class="flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">
-                <a href = "<?php echo get_permalink( get_page_by_path( 'product' ) );?>">Sản phẩm</a>
+                <a id="product" href = "<?php echo get_permalink( get_page_by_path( 'product' ) );?>">Sản phẩm</a>
             </div>
             <div
                 class="flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">
-                <a href = "<?php echo get_permalink( get_page_by_path( 'about' ) );?>">Về Nguyên Ninh</a>
+                <a id="about" href = "<?php echo get_permalink( get_page_by_path( 'about' ) );?>">Về Nguyên Ninh</a>
                 </div>
             <div
                 class="flex flex-col items-center gap-1 mr-16 last:mr-0 text-[#383A36] tracking-widest uppercase font-raleway">
-                <a href = "<?php echo get_permalink( get_page_by_path( 'our-story' ) );?>">Câu chuyện</a>
+                <a id="story" href = "<?php echo get_permalink( get_page_by_path( 'our-story' ) );?>">Câu chuyện</a>
                 </div>
             <div class="flex space-x-1 items-center  gap-1 mr-16 last:mr-0 rounded-full">
-                <div class="relative bg-[#306701] rounded-full w-[11rem] h-12">
+                <div class="relative bg-[#306701] rounded-full w-[11rem] h-12" id="phone">
                     <p
                         class="absolute text-xs font-medium tracking-widest leading-none text-center text-white left-[2.5rem] top-4 font-raleway">
                         0243 828 3573</p>
