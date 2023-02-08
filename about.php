@@ -15,7 +15,7 @@ get_header(); ?>
             </p>
             <div class="inline-flex items-center self-center justify-center px-28">
                 <div>
-                    <p class="text-[84px] desktop:text-7xl leading-[7rem] text-gray-700 font-prata">Nguyên Ninh mong muốn
+                    <p class="text-[5.25rem] leading-[7rem] text-gray-700 font-prata">Nguyên Ninh mong muốn
                         mang đến cho mọi
                         người
                         thứ quà tuyệt vời nhất</p>
@@ -50,15 +50,15 @@ get_header(); ?>
     <div class="glide hero">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide max-h-[600px]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full">
+                <li class="glide__slide max-h-[39.5rem] h-[39.5rem]">
+                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
                 </li>
-                <li class="glide__slide max-h-[600px]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full">
+                <li class="glide__slide max-h-[39.5rem] h-[39.5rem]">
+                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
 
                 </li>
-                <li class="glide__slide max-h-[600px]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full">
+                <li class="glide__slide max-h-[39.5rem] h-[39.5rem]">
+                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
 
                 </li>
 
@@ -76,7 +76,7 @@ get_header(); ?>
 </div>
 
 <div class="px-14 w-full bg-[#F4F2E6]">
-    <div class="inline-flex flex-col items-start justify-start mt-[96px] mb-[96px]">
+    <div class="inline-flex flex-col items-start justify-start my-24">
         <div class="inline-flex flex-col items-start justify-start">
             <p class="text-base font-medium tracking-wider leading-[7rem] ml-4 text-gray-700">GIÁ TRỊ VÀ SỨ MỆNH
             </p>
@@ -90,8 +90,8 @@ get_header(); ?>
 
         </div>
         <div class="inline-flex items-center justify-center mt-16">
-            <div class="relative w-[60%] max-w-[60%] max-h-[500px] ml-10">
-                <img class="rounded-lg w-full max-h-[500px] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+            <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] ml-10">
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 right-10 z-[1]"></div>
             </div>
@@ -122,6 +122,7 @@ get_header(); ?>
 
                 <p class="text-3xl font-bold tracking-wider leading-7 text-center text-gray-700 font-raleway-bold">Bảo
                     tồn giá trị</p>
+                <div class="opacity-30 w-1/3 h-0.5 border-gray-700 bg-[#383A36]"></div>
                 <p class="text-center text-base font-medium tracking-wider leading-7 text-gray-600">
                     Vốn xuất thân là một thứ quà sang trọng ở tầng lớp thượng lưu nhưng theo thời gian, bánh cốm dần trở
                     nên quen thuộc hơn với tất cả mọi người. Tuy nhiên, bánh cốm vẫn là một món ăn vô cùng quan trọng
@@ -132,16 +133,16 @@ get_header(); ?>
                 </p>
                 </p>
             </div>
-            <div class="relative w-[60%] max-w-[60%] max-h-[500px] mr-10">
-                <img class="rounded-lg w-full max-h-[500px] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+            <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] mr-10">
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 left-10 z-[1]"></div>
             </div>
 
         </div>
         <div class="inline-flex items-center justify-center mt-24">
-            <div class="relative w-[60%] max-w-[60%] max-h-[500px] ml-10">
-                <img class="rounded-lg w-full max-h-[500px] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+            <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] ml-10">
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 right-10 z-[1]"></div>
             </div>
@@ -178,6 +179,8 @@ get_header(); ?>
                 <p class="text-3xl font-bold tracking-wider leading-8 text-center text-gray-700 font-raleway-bold">Đóng
                     góp giá trị văn
                     hoá cho thủ đô</p>
+                <div class="opacity-30 w-1/3 h-0.5 border-gray-700 bg-[#383A36]"></div>
+
                 <p class="text-center text-base font-medium tracking-wider leading-7 text-gray-600">
                     Nguyên Ninh mong muốn thông qua chiếc bánh cốm nhỏ nhỏ có thể truyền tới mọi người chút hương sắc
                     của thủ đô, chút thanh tao từ cốm để ai ai khi tới Hà Nội cũng sẽ nhớ thưởng thức chiếc bánh cốm.
@@ -188,8 +191,8 @@ get_header(); ?>
                 </p>
                 </p>
             </div>
-            <div class="relative w-[60%] max-w-[60%] max-h-[500px] mr-10">
-                <img class="rounded-lg w-full max-h-[500px] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+            <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] mr-10">
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 left-10 z-[1]"></div>
             </div>
@@ -198,14 +201,14 @@ get_header(); ?>
     </div>
 </div>
 <div class="px-14 w-full bg-[#E0DAB8]">
-    <div class="w-full inline-flex flex-col items-start justify-start mt-[96px] mb-[96px]">
+    <div class="w-full inline-flex flex-col items-start justify-start my-24">
         <div class="w-full inline-flex flex-col items-start justify-start">
             <p class="text-base font-medium tracking-wider leading-[7rem] ml-16 text-gray-700">SỰ KHÁC BIỆT
                 CỦA NGUYÊN NINH
             </p>
             <div class="inline-flex items-start justify-center w-full mt-8">
                 <div class="w-[80%]">
-                    <p class="text-[90px] text-gray-700 leading-[7rem] font-prata">Hương vị tuyệt hảo,<br>
+                    <p class="text-[5.25rem] text-gray-700 leading-[7rem] font-prata">Hương vị tuyệt hảo,<br>
                         nguyên vẹn và an toàn
                     </p>
                 </div>
@@ -234,14 +237,14 @@ get_header(); ?>
                         </p>
 
                     </div>
-                    <div class="flex gap-4 max-h-[350px] mt-8">
-                        <div class="flex-[3]">
+                    <div class="flex gap-4 max-h-[16.25rem] h-[16.25rem] mt-8">
+                        <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
-                        <div class="flex-[2]">
+                        <div class="flex-[2] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
-                        <div class="flex-[3]">
+                        <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
                     </div>
@@ -271,14 +274,14 @@ get_header(); ?>
                         </p>
 
                     </div>
-                    <div class="flex gap-4 max-h-[350px] mt-8">
-                        <div class="flex-[3]">
+                    <div class="flex gap-4 max-h-[16.25rem] h-[16.25rem] mt-8">
+                        <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
-                        <div class="flex-[2]">
+                        <div class="flex-[2] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
-                        <div class="flex-[3]">
+                        <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
                     </div>
@@ -307,14 +310,14 @@ get_header(); ?>
                         </p>
 
                     </div>
-                    <div class="flex gap-4 max-h-[350px] mt-8">
-                        <div class="flex-[3]">
+                    <div class="flex gap-4 max-h-[16.25rem] h-[16.25rem] mt-8">
+                        <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
-                        <div class="flex-[2]">
+                        <div class="flex-[2] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
-                        <div class="flex-[3]">
+                        <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
                             <img class="h-full w-full" src="https://via.placeholder.com/800x800">
                         </div>
                     </div>
@@ -334,23 +337,23 @@ get_header(); ?>
         </div>
         <div class="mt-8">
             <p
-                class="text-7xl desktop:text-6xl font-normal font-prata tracking-wider !leading-[5rem] text-center text-white">
+                class="text-7xl font-normal font-prata tracking-wider !leading-[5rem] text-center text-white">
                 Những cột mốc quan trọng và
                 những giải thưởng của Nguyên Ninh</p>
         </div>
         <button
-            class="text-white border-[1.2px] border-[#FFFFFF] w-48 bg-transparent flex justify-center py-4 px-8 mt-16 gap-2 rounded-[26px] hover:bg-white hover:text-black">
-            <p class="text-inherit tracking-[0.1em] font-medium leading-4 text-center uppercase">Khám phá
+            class="text-white border-[1.2px] border-[#FFFFFF] w-48 bg-transparent flex justify-center py-4 px-8 mt-16 gap-2 rounded-[1.625rem] hover:bg-white hover:text-black">
+            <p class="text-inherit tracking-[0.1em] font-medium leading-4 text-sm text-center uppercase">Khám phá
                 <i class="ml-[6px] fa-light fa-arrow-up rotate-45 text-inherit"></i>
             </p>
         </button>
     </div>
 </div>
-<div class="w-full flex max-h-[700px]">
+<div class="w-full flex max-h-[40.75rem]">
     <div class="flex flex-col bg-[#BACCAA] flex-[6]">
         <div class="pt-24 px-24 flex-col flex">
             <div class="font-medium text-base text-[#183401] uppercase">Sản phẩm</div>
-            <div class="font-normal text-[52px] text-[#183401] font-prata pt-8">Những gì Nguyên Ninh mang tới cho mọi
+            <div class="font-normal text-[3.25rem] text-[#183401] font-prata pt-8">Những gì Nguyên Ninh mang tới cho mọi
                 người</div>
         </div>
         <button class="rounded-full w-64 my-24 px-24">

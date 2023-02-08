@@ -15,7 +15,7 @@ get_header(); ?>
             </p>
             <div class="inline-flex items-center self-center justify-center px-28">
                 <div>
-                    <p class="text-[82px] desktop:text-7xl !leading-[7rem] text-gray-700 font-prata">Câu chuyện của
+                    <p class="text-[5.25rem] desktop:text-7xl !leading-[7rem] text-gray-700 font-prata">Câu chuyện của
                         Nguyên Ninh bắt đầu vào năm 1865</p>
                 </div>
             </div>
@@ -41,14 +41,14 @@ get_header(); ?>
             </div>
         </div>
         <div>
-            <div class="inline-flex flex-col space-y-16 items-start justify-start mt-8 mb-[96px]">
-                <div class="inline-flex space-x-10 items-start justify-center h-[610px] mobile:h-[300px]">
+            <div class="inline-flex flex-col space-y-16 items-start justify-start mt-8 mb-[24]">
+                <div class="inline-flex space-x-10 items-start justify-center mobile:h-[300px]">
                     <div class="h-full w-[54%]">
-                        <img class="rounded-lg max-h-[100%] h-full w-full" src="https://via.placeholder.com/644x617" />
+                        <img class="rounded-lg max-h-[30.625rem] h-[30.625rem] w-full" src="https://via.placeholder.com/644x617" />
                         <div class="flex justify-between mt-4">
-                            <p class="font-bold text-base !leading-[26px] text-[#383A36] uppercase">NƠI CHIẾC BÁNH CỐM
+                            <p class="font-bold text-base !leading-[1.625rem] text-[#383A36] uppercase">NƠI CHIẾC BÁNH CỐM
                                 ĐẦU TIÊN RA ĐỜI</p>
-                            <p class="font-bold text-base !leading-[26px] text-[#383A36] uppercase">NGÔI NHÀ CỔ KÍNH SỐ
+                            <p class="font-bold text-base !leading-[1.625rem] text-[#383A36] uppercase">NGÔI NHÀ CỔ KÍNH SỐ
                                 11 HÀNG THAN</p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ get_header(); ?>
                         <div class="flex flex-col space-y-4 items-start justify-start h-full">
                             <img class="rounded-lg max-h-[66%] max-w-[100%] w-[100%]"
                                 src="https://via.placeholder.com/644x373" />
-                            <p class="text-base font-medium tracking-wider leading-7 text-gray-700">Ngôi nhà gia tộc
+                            <p class="text-base font-medium tracking-wider w-[78%] leading-7 text-gray-700">Ngôi nhà gia tộc
                                 Nguyên Ninh số 11 Hàng Than vẫn vậy, vẫn giữ nguyên kiến túc, cách bài trí và nội thất
                                 từ xưa, mang đậm giá trị văn hoá và truyền thống. </p>
 
@@ -77,23 +77,23 @@ get_header(); ?>
     <div class="glide hero">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide max-h-[500px]">
-                    <div class="inline-flex items-center justify-start max-h-[500px]">
-                        <div class="flex items-center justify-start bg-black w-1/2 h-[500px] max-h-[500px]">
+                <li class="glide__slide max-h-[31.25rem]">
+                    <div class="inline-flex items-center justify-start max-h-[31.25rem]">
+                        <div class="flex items-center justify-start bg-black w-1/2 h-[31.25rem] max-h-[31.25rem]">
                             <img class="rounded-lg w-full h-full" src="https://via.placeholder.com/664x514" />
 
                         </div>
-                        <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[500px]">
+                        <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[31.25rem]">
                             <div class="inline-flex flex-col space-y-12 items-start p-12 h-full bg-[#BACCAA]">
                                 <div class="flex flex-col space-y-8 items-start justify-start w-full flex-[2] mt-8">
-                                    <p class="w-full text-[84px] leading-[3.5rem] text-[#306701] font-prata">1865</p>
+                                    <p class="w-full text-[5.25rem] leading-[3.5rem] text-[#306701] font-prata">1865</p>
                                 </div>
                                 <div class="w-full !mt-[7rem]">
                                     <p
-                                        class="w-full text-2xl font-bold tracking-wider text-justify leading-[26px] text-gray-700">
+                                        class="w-full text-2xl font-bold tracking-wider text-justify leading-[1.625rem] text-gray-700">
                                         Chiếc bánh cốm đầu tiên ra đời
                                     </p>
-                                    <p class="w-full text-sm tracking-wider mt-6 text-gray-700 leading-[26px]">
+                                    <p class="w-full text-sm tracking-wider mt-6 text-gray-700 leading-[1.625rem]">
                                         Bánh cốm được sáng tạo vào năm 1865 bởi cụ trưởng ái gia tộc Nguyên Ninh – cụ
                                         Trần Thị Luân. </p>
                                 </div>
@@ -103,23 +103,23 @@ get_header(); ?>
 
                     </div>
                 </li>
-                <li class="glide__slide max-h-[500px]">
-                    <div class="inline-flex items-center justify-start max-h-[500px]">
-                        <div class="flex items-center justify-start bg-black w-1/2 h-[500px] max-h-[500px]">
+                <li class="glide__slide max-h-[31.25rem]">
+                    <div class="inline-flex items-center justify-start max-h-[31.25rem]">
+                        <div class="flex items-center justify-start bg-black w-1/2 h-[31.25rem] max-h-[31.25rem]">
                             <img class="rounded-lg w-full h-full" src="https://via.placeholder.com/664x514" />
 
                         </div>
-                        <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[500px]">
+                        <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[31.25rem]">
                             <div class="inline-flex flex-col space-y-12 items-start p-12 h-full bg-[#BACCAA]">
                                 <div class="flex flex-col space-y-8 items-start justify-start w-full flex-[2] mt-8">
-                                    <p class="w-full text-[84px] leading-[3.5rem] text-[#306701] font-prata">1865</p>
+                                    <p class="w-full text-[5.25rem] leading-[3.5rem] text-[#306701] font-prata">1865</p>
                                 </div>
                                 <div class="w-full !mt-[7rem]">
                                     <p
-                                        class="w-full text-2xl font-bold tracking-wider text-justify leading-[26px] text-gray-700">
+                                        class="w-full text-2xl font-bold tracking-wider text-justify leading-[1.625rem] text-gray-700">
                                         Chiếc bánh cốm đầu tiên ra đời
                                     </p>
-                                    <p class="w-full text-sm tracking-wider mt-6 text-gray-700 leading-[26px]">
+                                    <p class="w-full text-sm tracking-wider mt-6 text-gray-700 leading-[1.625rem]">
                                         Bánh cốm được sáng tạo vào năm 1865 bởi cụ trưởng ái gia tộc Nguyên Ninh – cụ
                                         Trần Thị Luân. </p>
                                 </div>
@@ -129,23 +129,23 @@ get_header(); ?>
 
                     </div>
                 </li>
-                <li class="glide__slide max-h-[500px]">
-                    <div class="inline-flex items-center justify-start max-h-[500px]">
-                        <div class="flex items-center justify-start bg-black w-1/2 h-[500px] max-h-[500px]">
+                <li class="glide__slide max-h-[31.25rem]">
+                    <div class="inline-flex items-center justify-start max-h-[31.25rem]">
+                        <div class="flex items-center justify-start bg-black w-1/2 h-[31.25rem] max-h-[31.25rem]">
                             <img class="rounded-lg w-full h-full" src="https://via.placeholder.com/664x514" />
 
                         </div>
-                        <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[500px]">
+                        <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[31.25rem]">
                             <div class="inline-flex flex-col space-y-12 items-start p-12 h-full bg-[#BACCAA]">
                                 <div class="flex flex-col space-y-8 items-start justify-start w-full flex-[2] mt-8">
-                                    <p class="w-full text-[84px] leading-[3.5rem] text-[#306701] font-prata">1865</p>
+                                    <p class="w-full text-[5.25rem] leading-[3.5rem] text-[#306701] font-prata">1865</p>
                                 </div>
                                 <div class="w-full !mt-[7rem]">
                                     <p
-                                        class="w-full text-2xl font-bold tracking-wider text-justify leading-[26px] text-gray-700">
+                                        class="w-full text-2xl font-bold tracking-wider text-justify leading-[1.625rem] text-gray-700">
                                         Chiếc bánh cốm đầu tiên ra đời
                                     </p>
-                                    <p class="w-full text-sm tracking-wider mt-6 text-gray-700 leading-[26px]">
+                                    <p class="w-full text-sm tracking-wider mt-6 text-gray-700 leading-[1.625rem]">
                                         Bánh cốm được sáng tạo vào năm 1865 bởi cụ trưởng ái gia tộc Nguyên Ninh – cụ
                                         Trần Thị Luân. </p>
                                 </div>
@@ -171,14 +171,14 @@ get_header(); ?>
 
 </div>
 <div class="px-14 w-full bg-[#F0ECDB]">
-    <div class="w-full inline-flex flex-col items-start justify-start mt-[96px] mb-[96px]">
+    <div class="w-full inline-flex flex-col items-start justify-start my-24">
         <div class="w-full inline-flex flex-col items-start justify-start">
             <p class="text-base font-medium tracking-wider leading-[7rem] ml-16 text-gray-700 uppercase">thành tựu và
                 giá trị thương hiệu
             </p>
             <div class="inline-flex items-start justify-center w-full mt-8">
                 <div class="w-[80%]">
-                    <p class="text-[90px] text-gray-700 leading-[7rem] font-prata">Những điều Nguyên Ninh luôn tự hào
+                    <p class="text-[5.25rem] text-gray-700 leading-[7rem] font-prata">Những điều Nguyên Ninh luôn tự hào
                     </p>
                 </div>
             </div>
@@ -192,7 +192,7 @@ get_header(); ?>
                         Nguyên Ninh đã đạt được nhiều giải thưởng và thành tựu đáng tự hào.</p>
                 </div>
             </div>
-            <div class="flex max-h-[650px] h-[650px] mt-24 w-full">
+            <div class="flex max-h-[39.375rem] h-[39.375rem] mt-24 w-full">
                 <div class="h-1/2 max-h-1/2 w-[24%] mr-4">
                     <img class="h-full w-full" src="https://via.placeholder.com/664x514" alt="">
                 </div>
@@ -211,7 +211,7 @@ get_header(); ?>
                 </p>
             </div>
             <div class="flex-col mx-auto flex w-4/5 mt-16 my-24">
-                <img src="https://via.placeholder.com/664x514" class="w-full max-h-[580px] max-w-full" alt="">
+                <img src="https://via.placeholder.com/664x514" class="w-full max-h-[36.125rem] max-w-full" alt="">
             </div>
             <div class="flex-col mx-auto flex w-1/3">
                 <div class="w-full">
@@ -244,18 +244,18 @@ get_header(); ?>
                 văn hoá của Nguyên Ninh</p>
         </div>
         <button
-            class="text-white border-[1.2px] border-[#FFFFFF] w-48 bg-transparent flex justify-center py-4 px-8 mt-16 gap-2 rounded-[26px] hover:bg-white hover:text-black">
+            class="text-white border-[1.2px] border-[#FFFFFF] w-48 bg-transparent flex justify-center py-4 px-8 mt-16 gap-2 rounded-[1.625rem] hover:bg-white hover:text-black">
             <p class="text-inherit tracking-[0.1em] font-medium leading-4 text-center uppercase">Khám phá
                 <i class="ml-[6px] fa-light fa-arrow-up rotate-45 text-inherit"></i>
             </p>
         </button>
     </div>
 </div>
-<div class="w-full flex max-h-[700px]">
+<div class="w-full flex max-h-[40.75rem]">
     <div class="flex flex-col bg-[#BACCAA] flex-[6]">
         <div class="pt-24 px-24 flex-col flex">
             <div class="font-medium text-base text-[#183401] uppercase">Sản phẩm</div>
-            <div class="font-normal text-[52px] text-[#183401] font-prata pt-8">Những gì Nguyên Ninh mang tới cho mọi
+            <div class="font-normal text-[3.25rem] text-[#183401] font-prata pt-8">Những gì Nguyên Ninh mang tới cho mọi
                 người</div>
         </div>
         <button class="rounded-full w-64 my-24 px-24">

@@ -3,7 +3,7 @@
         <div class="pt-24 px-24 mobile:px-4 flex-col flex">
             <div class="font-medium text-base text-[#183401] uppercase">Newsletter</div>
             <div
-                class="mt-8 ml-56 mobile:!ml-0 mobile:!text-5xl mobile:!leading-3 font-prata desktop:text-7xl text-[84px] desktop:!leading-[6rem] text-[#183401]">
+                class="mt-8 ml-56 mobile:!ml-0 mobile:!text-5xl mobile:!leading-3 font-prata desktop:text-7xl text-[5.25rem] desktop:!leading-[6rem] text-[#183401]">
                 Theo dõi <span class="text-[#53802B]">Nguyên Ninh<span></div>
             <div class="ml-56 mobile:ml-0 flex mobile:block mobile:gap-2 gap-16 mt-16 mb-24">
                 <div class="font-medium w-1/2 mobile:w-full text-base leading-[26px] text-[#52544F]">Điền email vào đây
@@ -242,5 +242,13 @@
 </div>
 <?php wp_footer(); ?>
 </body>
-
+<script>
+     window.onload = function() {
+      var html = document.querySelector('html');
+        html.style.fontSize = (window.innerWidth / 1440 * 16) + 'px'
+    };
+    window.onresize = function() {
+        html.style.fontSize = (window.innerWidth / 1440 * 16) + 'px'
+    };
+</script>
 </html>

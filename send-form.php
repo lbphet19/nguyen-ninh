@@ -22,7 +22,7 @@ get_header(); ?>
         display:none
     }
 </style>
-<div class="border-[0.5px] border-[#e6e6e6] w-[calc(100%_-_128px)] mx-auto my-24"></div>
+<div class="border-[0.5px] border-[#e6e6e6] w-[calc(100%_-_8rem)] mx-auto my-24"></div>
 <div class="px-14 mobile:px-4 w-full mb-24">
     <div class="flex flex-col items-start justify-start mb-24 mobile:my-8 w-full ">
         <p class="text-base font-medium tracking-wider mobile:!leading-[3rem] leading-[7rem] mobile:ml-0 text-gray-700">
@@ -30,7 +30,7 @@ get_header(); ?>
         <div class="inline-flex items-start justify-start w-full mobile:mt-8">
             <div class="w-3/4 mobile:w-full mb-16 mobile:mb-0">
                 <p
-                    class="text-[84px] mobile:text-[3rem] mobile:!leading-[5rem] mobile:text-center text-gray-700 leading-[7rem] font-prata">
+                    class="text-[5.25rem] mobile:text-[3rem] mobile:!leading-[5rem] mobile:text-center text-gray-700 leading-[7rem] font-prata">
                     “Bạn có điều gì muốn nói với Nguyên Ninh?”
                 </p>
             </div>

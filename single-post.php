@@ -15,8 +15,8 @@ get_header(); ?>
                 <p class="uppercase font-medium text-base leading-7 text-[#383A36]">Nhật ký</p>
             </div>
             <div class="mt-8 flex-[1]">
-            <p class="font-prata text-7xl !leading-[84px] text-[#383A36]"><?php the_title(); ?></p>
-                <!-- <p class="font-prata text-7xl !leading-[84px] text-[#383A36]">Một thức quà quý từ thủ đô Hà Nội</p> -->
+            <p class="font-prata text-7xl !leading-[5.25rem] text-[#383A36]"><?php the_title(); ?></p>
+                <!-- <p class="font-prata text-7xl !leading-[5.25rem] text-[#383A36]">Một thức quà quý từ thủ đô Hà Nội</p> -->
             </div>
             <div class="mb-28">
                 <!-- <p class="font-medium text-sm text-[#52544F]">Đăng vào lúc 14:10 | 14.10.2022</p> -->

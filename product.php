@@ -15,13 +15,13 @@ get_header(); ?>
                     fill="#383A36" />
             </svg>
         </div>
-        <div class="font-prata font-normal mb-16 leading-[84px] text-7xl text-[#383A36] text-center">Các sản phẩm<br>
+        <div class="font-prata font-normal mb-16 leading-[5.25rem] text-7xl text-[#383A36] text-center">Các sản phẩm<br>
             của nhà Nguyên Ninh
         </div>
 
     </div>
     <div>
-        <img src="https://via.placeholder.com/664x514" class="max-h-[700px] w-full max-w-full" alt="">
+        <img src="https://via.placeholder.com/664x514" class="max-h-[43.75rem] h-[43.75rem] w-full max-w-full" alt="">
     </div>
 </div>
 <div class="px-14 py-24 w-full bg-[#F4F2E6]">
@@ -34,10 +34,10 @@ get_header(); ?>
             </svg>
 
         </div>
-        <div class="font-prata font-normal mb-6 leading-8 text-[28px] text-[#52544F] text-center">Dưới đây là những sản
+        <div class="font-prata font-normal mb-6 leading-8 text-[1.75rem] text-[#52544F] text-center">Dưới đây là những sản
             phẩm mà hiện tại Nguyên Ninh đang bày bán.
         </div>
-        <div class="font-prata font-normal mb-16 leading-8 text-[28px] text-[#52544F] text-center">Chúng tôi luôn có ưu
+        <div class="font-prata font-normal mb-16 leading-8 text-[1.75rem] text-[#52544F] text-center">Chúng tôi luôn có ưu
             đãi với những đơn số lượng lớn
         </div>
 
@@ -47,21 +47,21 @@ get_header(); ?>
     <div class="w-full">
         <div class="flex gap-16">
             <div class="flex-col">
-                <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[528px] odd:h-[778px]">
+                <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[33rem] odd:h-[48.625rem]">
                     <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
-                <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[528px] odd:h-[778px]">
+                <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[33rem] odd:h-[48.625rem]">
                     <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
-                <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[528px] odd:h-[778px]">
+                <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[33rem] odd:h-[48.625rem]">
                     <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
@@ -72,21 +72,21 @@ get_header(); ?>
 
             <div class="flex-col">
                 <!-- nho: 576 to: 826 -->
-                <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[528px] even:h-[778px]">
+                <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[33rem] even:h-[48.625rem]">
                     <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
-                <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[528px] even:h-[778px]">
+                <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[33rem] even:h-[48.625rem]">
                     <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
-                <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[528px] even:h-[778px]">
+                <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[33rem] even:h-[48.625rem]">
                     <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
@@ -98,7 +98,7 @@ get_header(); ?>
 
     </div>
     <div class="bg-[#D6E1CC] border-[#97B380] border w-full flex-col flex py-16 mt-16">
-        <div class="pb-12 font-prata font-normal text-5xl leading-[56px] text-center text-[#383A36]">
+        <div class="pb-12 font-prata font-normal text-5xl leading-[3.5rem] text-center text-[#383A36]">
             Hướng dẫn mua hàng tại Nguyên Ninh
         </div>
         <div class="font-medium leading-7 text-[#383A36] text-center px-14 pb-4">
@@ -135,16 +135,16 @@ get_header(); ?>
 <div class="px-14 py-24 w-full bg-white">
     <div class="glide hero">
         <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-                <li class="glide__slide max-h-[600px]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full">
+            <ul class="glide__slides h-[43.75rem] max-h-[43.75rem]">
+                <li class="glide__slide h-full max-h-full">
+                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
                 </li>
-                <li class="glide__slide max-h-[600px]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full">
+                <li class="glide__slide h-full max-h-full">
+                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
 
                 </li>
-                <li class="glide__slide max-h-[600px]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full">
+                <li class="glide__slide h-full max-h-full">
+                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
 
                 </li>
 
@@ -153,9 +153,9 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="border-[0.5px] border-[#e6e6e6] w-[calc(100%_-_128px)] mx-auto"></div>
+<div class="border-[0.5px] border-[#e6e6e6] w-[calc(100%_-_8rem)] mx-auto"></div>
 <div class="px-14 py-24 w-full bg-white">
-    <div class="inline-flex flex-col space-y-16 items-start justify-start mt-[96px] mb-[96px]">
+    <div class="inline-flex flex-col space-y-16 items-start justify-start mt-[24] mb-[24]">
         <div class="inline-flex flex-col space-y-8 items-start justify-start">
             <p class="text-base font-medium tracking-wider leading-[7rem] ml-16 text-gray-700">SẢN PHẨM CỦA NGUYÊN NINH
                 CÓ
@@ -164,7 +164,7 @@ get_header(); ?>
             </p>
             <div class="inline-flex items-start justify-center w-full">
                 <div class="w-[80%]">
-                    <p class="text-[90px] text-gray-700 leading-[7rem] font-prata">“Món quà ngọt ngào
+                    <p class="text-[5.625rem] text-gray-700 leading-[7rem] font-prata">“Món quà ngọt ngào
                         mang tên Nguyên Ninh”
                     </p>
                 </div>
@@ -187,12 +187,12 @@ get_header(); ?>
         <div class="glide hero2">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
-                    <li class="glide__slide max-h-[500px]">
-                        <div class="inline-flex items-center justify-start max-h-[500px] mobile:flex-col">
+                    <li class="glide__slide max-h-[38rem]">
+                        <div class="inline-flex items-center justify-start max-h-[38rem] mobile:flex-col">
                             <div
-                                class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[500px] mobile:w-full mobile:order-2">
+                                class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[38rem] mobile:w-full mobile:order-2">
                                 <div
-                                    class="inline-flex flex-col mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#BACCAA]">
+                                    class="inline-flex flex-col h-full mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#BACCAA]">
                                     <div class="flex flex-col space-y-8 items-start justify-start w-full">
                                         <div class="inline-flex space-x-4 items-center justify-center mobile:pl-4">
                                             <div class="h-full pt-0.5">
@@ -223,19 +223,19 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
-                                <img class="rounded-lg w-full mobile:max-h-[225px]"
+                                <img class="rounded-lg w-full h-full max-h-full mobile:max-h-[225px]"
                                     src="https://via.placeholder.com/664x514" />
 
                             </div>
 
                         </div>
                     </li>
-                    <li class="glide__slide max-h-[500px]">
-                        <div class="inline-flex items-center justify-start max-h-[500px] mobile:flex-col">
+                    <li class="glide__slide max-h-[38rem]">
+                        <div class="inline-flex items-center justify-start max-h-[38rem] mobile:flex-col">
                             <div
-                                class="flex items-center justify-start bg-[#383A36] w-[40%] h-[500px] mobile:w-full mobile:order-2">
+                                class="flex items-center justify-start bg-[#383A36] w-[40%] h-[38rem] mobile:w-full mobile:order-2">
                                 <div
-                                    class="inline-flex flex-col mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#383A36]">
+                                    class="inline-flex flex-col mobile:w-full h-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#383A36]">
                                     <div class="flex flex-col space-y-8 items-start justify-start w-full">
                                         <div class="inline-flex space-x-4 items-center justify-center mobile:pl-4">
                                             <div class="h-full pt-0.5">
@@ -269,19 +269,19 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
-                                <img class="rounded-lg w-full mobile:max-h-[225px]"
+                                <img class="rounded-lg w-full h-full max-h-full mobile:max-h-[225px]"
                                     src="https://via.placeholder.com/664x514" />
 
                             </div>
 
                         </div>
                     </li>
-                    <li class="glide__slide max-h-[500px]">
-                        <div class="inline-flex items-center justify-start max-h-[500px] mobile:flex-col">
+                    <li class="glide__slide max-h-[38rem]">
+                        <div class="inline-flex items-center justify-start max-h-[38rem] mobile:flex-col">
                             <div
-                                class="flex items-center justify-start bg-[#E0DAB8] w-[40%] h-[500px] mobile:w-full mobile:order-2">
+                                class="flex items-center justify-start bg-[#E0DAB8] w-[40%] h-[38rem] mobile:w-full mobile:order-2">
                                 <div
-                                    class="inline-flex flex-col mobile:w-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#E0DAB8]">
+                                    class="inline-flex flex-col mobile:w-full h-full space-y-12 items-start justify-between mobile:p-0 p-16 bg-[#E0DAB8]">
                                     <div class="flex flex-col space-y-8 items-start justify-start w-full">
                                         <div class="inline-flex space-x-4 items-center justify-center mobile:pl-4">
                                             <div class="h-full pt-0.5">
@@ -311,7 +311,7 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
-                                <img class="rounded-lg w-full mobile:max-h-[225px]"
+                                <img class="rounded-lg w-full h-full max-h-full mobile:max-h-[225px]"
                                     src="https://via.placeholder.com/664x514" />
 
                             </div>
@@ -331,7 +331,7 @@ get_header(); ?>
     </div>
 
 </div>
-<div class="border-[0.5px] border-[#e6e6e6] w-[calc(100%_-_128px)] mx-auto"></div>
+<div class="border-[0.5px] border-[#e6e6e6] w-[calc(100%_-_8rem)] mx-auto"></div>
 
 
 
@@ -358,6 +358,5 @@ var glideHero2 = new Glide('.hero2', {
 
 glideHero.mount();
 glideHero2.mount();
-
 </script>
 <?php get_footer()?>
