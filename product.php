@@ -183,7 +183,7 @@ get_header(); ?>
         </div>
 
     </div>
-    <div class="wrap">
+    <div class="wrap mt-16">
         <div class="glide hero2">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
@@ -213,7 +213,7 @@ get_header(); ?>
                                     </div>
                                     <div class="w-full mobile:!mt-0 mobile:px-4">
                                         <p
-                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-relaxed text-justify text-gray-700">
+                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-[1.625rem] text-justify text-gray-700">
                                             Bánh cốm Nguyên Ninh chính gốc số 11 Hàng Than từ lâu đã nổi tiếng với việc
                                             không sử dụng chất bảo quản. Dù rằng nếu sử dụng chất bảo quản theo sự cho
                                             phép của bộ Y tế thì bánh sẽ để được lâu hơn nhưng Nguyên Ninh vẫn luôn
@@ -256,7 +256,7 @@ get_header(); ?>
                                     </div>
                                     <div class="w-full mobile:!mt-0 mobile:px-4">
                                         <p
-                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-relaxed text-justify text-white">
+                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-[1.625rem] text-justify text-white">
                                             Bánh cốm Nguyên Ninh chỉ có duy nhất một địa chỉ tại số 11 phố Hàng Than, Hà
                                             Nội. Đây
                                             là cửa hiệu gia truyền của gia đình, vốn là 1 ngôi nhà cổ vẫn giữ nguyên lối
@@ -301,7 +301,7 @@ get_header(); ?>
                                     </div>
                                     <div class="w-full mobile:!mt-0 mobile:px-4">
                                         <p
-                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-relaxed text-justify text-gray-700">
+                                            class="mobile:pt-4 w-full text-sm tracking-wider leading-[1.625rem] text-justify text-gray-700">
                                             Bánh cốm Nguyên Ninh chính gốc số 11 Hàng Than từ lâu đã nổi tiếng với việc
                                             không sử dụng chất bảo quản. Dù rằng nếu sử dụng chất bảo quản theo sự cho
                                             phép của bộ Y tế thì bánh sẽ để được lâu hơn nhưng Nguyên Ninh vẫn luôn
