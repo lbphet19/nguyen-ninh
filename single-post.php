@@ -9,24 +9,24 @@ get_header(); ?>
     while(have_posts()) {
       the_post(); ?>
 <div class="px-14 bg-[#F9F8F1]">
-    <div class="flex h-[600px]">
+    <div class="flex h-[37.5rem]">
         <div class="flex flex-col w-[45%] mr-20 self-center h-full">
             <div class="mt-28">
                 <p class="uppercase font-medium text-base leading-7 text-[#383A36]">Nhật ký</p>
             </div>
-            <div class="mt-8 flex-[1]">
+            <div class="mt-8 flex-[1] mb-16">
             <p class="font-prata text-7xl !leading-[5.25rem] text-[#383A36]"><?php the_title(); ?></p>
                 <!-- <p class="font-prata text-7xl !leading-[5.25rem] text-[#383A36]">Một thức quà quý từ thủ đô Hà Nội</p> -->
             </div>
-            <div class="mb-28">
+            <div class="">
                 <!-- <p class="font-medium text-sm text-[#52544F]">Đăng vào lúc 14:10 | 14.10.2022</p> -->
                 <p class="font-medium text-sm text-[#52544F] mb-8">Đăng vào lúc  <?php echo get_the_date('h:i') ?> | <?php echo get_the_date('d.m.Y')?></p>
                 <div class="w-3/4 border-[0.5px] border-[#e6e6e6]"></div>
             </div>
 
         </div>
-        <div class="max-h-[600px] w-1/2">
-            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+        <div class="max-h-[37.5rem] w-1/2">
+            <img class="h-full w-full" src="<?php the_post_thumbnail_url( )?>" >
         </div>
     </div>
 </div>
@@ -36,7 +36,7 @@ get_header(); ?>
             d="M24 4C21.4918 13.7869 13.7869 21.4918 4 24C13.7869 26.5082 21.4918 34.2131 24 44C26.5082 34.2131 34.2131 26.5082 44 24C34.2131 21.4918 26.5082 13.7869 24 4Z"
             fill="#383A36" />
     </svg>
-    <div class = "w-[45%] font-raleway mx-auto font-medium text-base leading-7 my-16">
+    <div class = "w-[45%] font-raleway mx-auto text-lg leading-7 my-16">
         <?php the_content(); ?>
     </div>
     <svg class="mx-auto" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,7 @@ get_header(); ?>
             for ($x = 0; $x < 3; $x+=1) {
         ?>
         <div class="inline-flex flex-col  items-center max-h-[600px] mobile:mt-8">
-            <img src="https://via.placeholder.com/664x514" alt="" class="h-[50%] w-full">
+            <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  alt="" class="h-[50%] w-full">
             <div class="bg-[#F9F8F1] border border-[#E0DAB8] h-[50%] mt-0 flex flex-col justify-between">
                 <div class="flex flex-col px-8 pt-8">
                     <div class="font-bold text-3xl desktop:text-2xl leading-8 text-[#383A36] mb-4">
@@ -99,7 +99,7 @@ get_header(); ?>
         </button>
     </div>
     <div class="flex-[9]">
-        <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+        <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1607.jpg" >
     </div>
 </div>
 <?php get_footer();

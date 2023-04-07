@@ -50,15 +50,15 @@ get_header(); ?>
     <div class="glide hero">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide max-h-[39.5rem] h-[39.5rem]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
+                <li class="glide__slide max-h-[39.5rem] h-[39.5rem] mr-28">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/BCNN9666.jpg"  alt="" class="w-full h-full max-h-full">
                 </li>
-                <li class="glide__slide max-h-[39.5rem] h-[39.5rem]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
+                <li class="glide__slide max-h-[39.5rem] h-[39.5rem] mr-28">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/BCNN9678.jpg"  alt="" class="w-full h-full max-h-full">
 
                 </li>
-                <li class="glide__slide max-h-[39.5rem] h-[39.5rem]">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
+                <li class="glide__slide max-h-[39.5rem] h-[39.5rem] mr-28">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/DSC07977.jpg"  alt="" class="w-full h-full max-h-full">
 
                 </li>
 
@@ -91,7 +91,7 @@ get_header(); ?>
         </div>
         <div class="inline-flex items-center justify-center mt-16">
             <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] ml-10">
-                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9893.jpg" 
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 right-10 z-[1]"></div>
             </div>
@@ -134,7 +134,7 @@ get_header(); ?>
                 </p>
             </div>
             <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] mr-10">
-                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_3697-1.jpg" 
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 left-10 z-[1]"></div>
             </div>
@@ -142,7 +142,7 @@ get_header(); ?>
         </div>
         <div class="inline-flex items-center justify-center mt-24">
             <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] ml-10">
-                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1476.jpg" 
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 right-10 z-[1]"></div>
             </div>
@@ -192,7 +192,7 @@ get_header(); ?>
                 </p>
             </div>
             <div class="relative w-[60%] max-w-[60%] max-h-[31.25rem] mr-10">
-                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="https://via.placeholder.com/664x514"
+                <img class="rounded-lg w-full max-h-[31.25rem] max-w-full z-[2]" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HNV07881.jpg" 
                     style="position:inherit" />
                 <div class="absolute bg-[#D6E1CC] w-full h-full max-w-full max-h-full top-10 left-10 z-[1]"></div>
             </div>
@@ -239,13 +239,13 @@ get_header(); ?>
                     </div>
                     <div class="flex gap-4 max-h-[16.25rem] h-[16.25rem] mt-8">
                         <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2552.jpg" >
                         </div>
                         <div class="flex-[2] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2634.jpg" >
                         </div>
                         <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2621.jpg" >
                         </div>
                     </div>
                 </div>
@@ -263,26 +263,23 @@ get_header(); ?>
                 <div class="flex-[2] flex-col pt-[1.75rem]">
                     <div class="pr-14 flex gap-8">
                         <p class="w-1/2 text-base font-medium leading-[2.5rem] text-gray-700">
-                            Bánh cốm Nguyên Ninh chỉ dùng duy nhất 4 nguyên liệu: Cốm nếp quýt loại I, phần nhân có
-                            đậu
-                            xanh, dừa nạo và đường kính trắng.
+                        Bánh cốm Nguyên Ninh chính gốc số 11 Hàng Than từ lâu đã nổi tiếng với việc không sử dụng chất bảo quản.
                         </p>
                         <p class="w-1/2 text-base font-medium leading-[2.5rem] text-gray-700">
-                            Vỏ bánh được làm từ cốm xào nhuyễn, không xay, không pha bột và đặc biệt luôn xào bằng
-                            tay
-                            chứ không xào máy nên bánh dẻo thơm, dậy mùi cốm và không bị bở, vỡ khi ăn.
+                        Dù rằng nếu sử dụng chất bảo quản theo sự cho phép của bộ Y tế thì bánh sẽ để được lâu hơn nhưng Nguyên Ninh 
+                        vẫn luôn trung thành với tôn chỉ này từ xưa đến nay để gìn giữ tính nguyên bản của sản phẩm.
                         </p>
 
                     </div>
                     <div class="flex gap-4 max-h-[16.25rem] h-[16.25rem] mt-8">
                         <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/DSCF1895.jpg" >
                         </div>
                         <div class="flex-[2] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/DSCF1776.jpg" >
                         </div>
                         <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/DSC07932.jpg" >
                         </div>
                     </div>
                 </div>
@@ -312,13 +309,13 @@ get_header(); ?>
                     </div>
                     <div class="flex gap-4 max-h-[16.25rem] h-[16.25rem] mt-8">
                         <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_3697-1.jpg" >
                         </div>
                         <div class="flex-[2] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9826.jpg" >
                         </div>
                         <div class="flex-[3] max-h-[16.25rem] h-[16.25rem]">
-                            <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+                            <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_0506.jpg" >
                         </div>
                     </div>
                 </div>
@@ -367,26 +364,32 @@ get_header(); ?>
         </button>
     </div>
     <div class="flex-[9]">
-        <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+        <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1607.jpg" >
     </div>
 </div>
 <script>
 //https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js
 
-
-var glideHero = new Glide('.hero', {
-    type: 'carousel',
-    animationDuration: 2000,
-    autoplay: 4000,
-    focusAt: '1',
-    startAt: 1,
-    perView: 1,
-    peek: {
-        before: 0,
-        after: 100
+    const api = new Glide('.hero', {
+        type: 'carousel',
+        animationDuration: 1000,
+        focusAt: '1',
+        startAt: 1,
+        perView: 1,
+        // 130px
+        peek: {
+            before: 0,
+            after: 130
+        },
+        breakpoints: {
+            767: {
+                peek: {
+                    before: 0,
+                    after: 0
+                }
+            }
     }
-});
-
-glideHero.mount();
+        }).mount();
+    
 </script>
 <?php get_footer();

@@ -233,7 +233,7 @@
             </div>
             <div class="pt-8 mt-[3px]">
                 <p class="uppercase font-medium text-sm text-white"><i
-                        class="fa-regular fa-copyright text-white  mr-[3px]"></i> NGUYÊN NINH 2022</p>
+                    class="fa-regular fa-copyright text-white  mr-[3px]"></i> NGUYÊN NINH 2022</p>
             </div>
         </div>
     </div>
@@ -243,8 +243,8 @@
 <?php wp_footer(); ?>
 </body>
 <script>
+    var html = document.querySelector('html');
      window.onload = function() {
-      var html = document.querySelector('html');
         html.style.fontSize = (window.innerWidth / 1440 * 16) + 'px'
     };
     window.onresize = function() {

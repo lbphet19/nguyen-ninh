@@ -44,7 +44,7 @@ get_header(); ?>
             <div class="inline-flex flex-col space-y-16 items-start justify-start mt-8 mb-[24]">
                 <div class="inline-flex space-x-10 items-start justify-center mobile:h-[300px]">
                     <div class="h-full w-[54%]">
-                        <img class="rounded-lg max-h-[30.625rem] h-[30.625rem] w-full" src="https://via.placeholder.com/644x617" />
+                        <img class="rounded-lg max-h-[30.625rem] h-[30.625rem] w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9840.jpg"  />
                         <div class="flex justify-between mt-4">
                             <p class="font-bold text-base !leading-[1.625rem] text-[#383A36] uppercase">NƠI CHIẾC BÁNH CỐM
                                 ĐẦU TIÊN RA ĐỜI</p>
@@ -56,7 +56,7 @@ get_header(); ?>
                         class="inline-flex flex-col self-start space-y-8 items-start justify-between max-w-[45%] h-full">
                         <div class="flex flex-col space-y-4 items-start justify-start h-full">
                             <img class="rounded-lg max-h-[66%] max-w-[100%] w-[100%]"
-                                src="https://via.placeholder.com/644x373" />
+                                src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9825.jpg"  />
                             <p class="text-base font-medium tracking-wider w-[78%] leading-7 text-gray-700">Ngôi nhà gia tộc
                                 Nguyên Ninh số 11 Hàng Than vẫn vậy, vẫn giữ nguyên kiến túc, cách bài trí và nội thất
                                 từ xưa, mang đậm giá trị văn hoá và truyền thống. </p>
@@ -80,7 +80,7 @@ get_header(); ?>
                 <li class="glide__slide max-h-[31.25rem]">
                     <div class="inline-flex items-center justify-start max-h-[31.25rem]">
                         <div class="flex items-center justify-start bg-black w-1/2 h-[31.25rem] max-h-[31.25rem]">
-                            <img class="rounded-lg w-full h-full" src="https://via.placeholder.com/664x514" />
+                            <img class="rounded-lg w-full h-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2621.jpg"  />
 
                         </div>
                         <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[31.25rem]">
@@ -106,7 +106,7 @@ get_header(); ?>
                 <li class="glide__slide max-h-[31.25rem]">
                     <div class="inline-flex items-center justify-start max-h-[31.25rem]">
                         <div class="flex items-center justify-start bg-black w-1/2 h-[31.25rem] max-h-[31.25rem]">
-                            <img class="rounded-lg w-full h-full" src="https://via.placeholder.com/664x514" />
+                            <img class="rounded-lg w-full h-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1695.jpg"  />
 
                         </div>
                         <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[31.25rem]">
@@ -132,7 +132,7 @@ get_header(); ?>
                 <li class="glide__slide max-h-[31.25rem]">
                     <div class="inline-flex items-center justify-start max-h-[31.25rem]">
                         <div class="flex items-center justify-start bg-black w-1/2 h-[31.25rem] max-h-[31.25rem]">
-                            <img class="rounded-lg w-full h-full" src="https://via.placeholder.com/664x514" />
+                            <img class="rounded-lg w-full h-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2621.jpg"  />
 
                         </div>
                         <div class="flex items-center justify-start bg-[#BACCAA] w-[40%] h-[31.25rem]">
@@ -194,13 +194,13 @@ get_header(); ?>
             </div>
             <div class="flex max-h-[39.375rem] h-[39.375rem] mt-24 w-full">
                 <div class="h-1/2 max-h-1/2 w-[24%] mr-4">
-                    <img class="h-full w-full" src="https://via.placeholder.com/664x514" alt="">
+                    <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9809.jpg"  alt="">
                 </div>
                 <div class="h-4/5 max-h-4/5 w-1/2 self-center mr-4">
-                    <img class="h-full w-full" src="https://via.placeholder.com/664x514" alt="">
+                    <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9827.jpg"  alt="">
                 </div>
                 <div class="h-1/2 max-h-1/2 w-[24%] self-end">
-                    <img class="h-full w-full" src="https://via.placeholder.com/664x514" alt="">
+                    <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9829.jpg"  alt="">
                 </div>
             </div>
             <div class="flex-col mx-auto flex w-1/3 mt-16">
@@ -211,7 +211,7 @@ get_header(); ?>
                 </p>
             </div>
             <div class="flex-col mx-auto flex w-4/5 mt-16 my-24">
-                <img src="https://via.placeholder.com/664x514" class="w-full max-h-[36.125rem] max-w-full" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_9825.jpg"  class="w-full max-h-[36.125rem] max-w-full" alt="">
             </div>
             <div class="flex-col mx-auto flex w-1/3">
                 <div class="w-full">
@@ -269,14 +269,13 @@ get_header(); ?>
         </button>
     </div>
     <div class="flex-[9]">
-        <img class="h-full w-full" src="https://via.placeholder.com/800x800">
+        <img class="h-full w-full" src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1607.jpg" >
     </div>
 </div>
 <script>
 //https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js
 
-
-var glideHero = new Glide('.hero', {
+    const api = new Glide('.hero', {
     type: 'carousel',
     animationDuration: 2000,
     autoplay: 4000,
@@ -295,7 +294,9 @@ var glideHero = new Glide('.hero', {
             }
         }
     }
-});
+    }).mount();
+
+
 
 glideHero.mount();
 </script>

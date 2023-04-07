@@ -21,7 +21,7 @@ get_header(); ?>
 
     </div>
     <div>
-        <img src="https://via.placeholder.com/664x514" class="max-h-[43.75rem] h-[43.75rem] w-full max-w-full" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1607.jpg"  class="max-h-[43.75rem] h-[43.75rem] w-full max-w-full" alt="">
     </div>
 </div>
 <div class="px-14 py-24 w-full bg-[#F4F2E6]">
@@ -48,21 +48,21 @@ get_header(); ?>
         <div class="flex gap-16">
             <div class="flex-col">
                 <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[33rem] odd:h-[48.625rem]">
-                    <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
                 <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[33rem] odd:h-[48.625rem]">
-                    <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
                 <div class="py-16 first:border-0 border-t border-[#B8B9B6] even:h-[33rem] odd:h-[48.625rem]">
-                    <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
@@ -73,21 +73,21 @@ get_header(); ?>
             <div class="flex-col">
                 <!-- nho: 576 to: 826 -->
                 <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[33rem] even:h-[48.625rem]">
-                    <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
                 <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[33rem] even:h-[48.625rem]">
-                    <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
                     </div>
                 </div>
                 <div class="py-16 first:border-0 border-t border-[#B8B9B6] odd:h-[33rem] even:h-[48.625rem]">
-                    <img src="https://via.placeholder.com/664x514" class="h-full max-h-full w-full" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-full max-h-full w-full" alt="">
                     <div class="flex justify-between mt-6">
                         <p class="font-bold text-[#383A36] text-base">Bánh cốm Nguyên Ninh</p>
                         <p class="font-medium text-sm text-[#383A36]">6.000 VND</p>
@@ -137,14 +137,14 @@ get_header(); ?>
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides h-[43.75rem] max-h-[43.75rem]">
                 <li class="glide__slide h-full max-h-full">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  alt="" class="w-full h-full max-h-full">
                 </li>
                 <li class="glide__slide h-full max-h-full">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  alt="" class="w-full h-full max-h-full">
 
                 </li>
                 <li class="glide__slide h-full max-h-full">
-                    <img src="https://via.placeholder.com/664x514" alt="" class="w-full h-full max-h-full">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  alt="" class="w-full h-full max-h-full">
 
                 </li>
 
@@ -223,8 +223,8 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
-                                <img class="rounded-lg w-full h-full max-h-full mobile:max-h-[225px]"
-                                    src="https://via.placeholder.com/664x514" />
+                                <img class="rounded-lg w-full h-[38rem] max-h-full mobile:max-h-[225px]"
+                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2621.jpg"  />
 
                             </div>
 
@@ -269,8 +269,8 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
-                                <img class="rounded-lg w-full h-full max-h-full mobile:max-h-[225px]"
-                                    src="https://via.placeholder.com/664x514" />
+                                <img class="rounded-lg w-full h-[38rem] max-h-full mobile:max-h-[225px]"
+                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_1695.jpg"  />
 
                             </div>
 
@@ -311,8 +311,8 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="flex items-center justify-start bg-black w-[60%] mobile:w-full">
-                                <img class="rounded-lg w-full h-full max-h-full mobile:max-h-[225px]"
-                                    src="https://via.placeholder.com/664x514" />
+                                <img class="rounded-lg w-full h-[38rem] max-h-full mobile:max-h-[225px]"
+                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/IMG_2621.jpg"  />
 
                             </div>
 
@@ -338,25 +338,20 @@ get_header(); ?>
 <script>
 //https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js
 
-
-var glideHero = new Glide('.hero', {
-    type: 'carousel',
-    animationDuration: 2000,
-    autoplay: 3000,
-    focusAt: '1',
-    startAt: 1,
-    perView: 1,
-});
-
-var glideHero2 = new Glide('.hero2', {
-    type: 'carousel',
-    animationDuration: 1000,
-    focusAt: '1',
-    startAt: 1,
-    perView: 1,
-});
-
-glideHero.mount();
-glideHero2.mount();
+    const glideHero = new Glide('.hero', {
+        type: 'carousel',
+        animationDuration: 2000,
+        autoplay: 3000,
+        focusAt: '1',
+        startAt: 1,
+        perView: 1,
+    }).mount();
+    const glideHero2 = new Glide('.hero2', {
+        type: 'carousel',
+        animationDuration: 1000,
+        focusAt: '1',
+        startAt: 1,
+        perView: 1,
+    }).mount();
 </script>
 <?php get_footer()?>

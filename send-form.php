@@ -38,7 +38,7 @@ get_header(); ?>
         <div class="w-full h-[585px] max-h-[585px] flex">
             <div class="w-[30%]"></div>
             <div class="w-[70%] h-full">
-                <img src="https://via.placeholder.com/664x514" class="w-full max-h-full" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="w-full max-h-full" alt="">
             </div>
         </div>
     </div>

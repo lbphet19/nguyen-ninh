@@ -9,6 +9,7 @@ get_header(); ?>
     <!-- end example react component -->
 
     <div class="prose max-w-full">
+      404!
         <?php
         $args_my_query = array(
             `post_type`    =>    `post`
@@ -24,6 +25,15 @@ get_header(); ?>
              */
             the_title();
           }
+        }
+        rewind_posts();
+        // rewind -> reset query 
+        while( $my_query->have_posts() ) { 
+          $my_query->the_post();
+          /*
+           * Nội dung hiển thị bài viết
+           */
+          the_title();
         }
         ?>
       </div>

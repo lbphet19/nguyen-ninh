@@ -113,14 +113,14 @@ get_header(); ?>
     </div>
     <div class="flex mt-16 gap-16">
         <div class="h-[450px] max-h-[450px] w-1/2">
-            <img src="https://via.placeholder.com/664x514" class="h-[88%] max-h-[88%] w-full" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-[88%] max-h-[88%] w-full" alt="">
             <div class="flex justify-between mt-[25px]">
                 <div class="font-bold text-base text-[#383A36] uppercase">Bánh xu xê</div>
                 <div class="font-medium text-sm text-[#383A36] uppercase">10.000 VND</div>
             </div>
         </div>
         <div class="h-[450px] max-h-[450px] w-1/2">
-            <img src="https://via.placeholder.com/664x514" class="h-[88%] max-h-[88%] w-full" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/src/assets/imgs/HO-GUOM.jpg"  class="h-[88%] max-h-[88%] w-full" alt="">
             <div class="flex justify-between mt-[25px]">
                 <div class="font-bold text-base text-[#383A36] uppercase">Bánh xu xê</div>
                 <div class="font-medium text-sm text-[#383A36] uppercase">10.000 VND</div>
